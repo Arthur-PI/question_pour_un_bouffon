@@ -1,6 +1,4 @@
 # Question pour un Bouffon
-Projet de prog java S5 Efrei
-
 Projet POO en Java
 Jeu de Questions / Réponses
 
@@ -16,15 +14,15 @@ Dates importantes :
 
 Cahier des charges
 
-Objectif : Implémenter un jeu de Questions / Réponses entre au moins 4 joueurs au début du jeu.
+    Objectif : Implémenter un jeu de Questions / Réponses entre au moins 4 joueurs au début du jeu.
 
-Système :
-1 phase de jeu -> 1 élimination 
-Total de n-1 phases de jeu (n>=4 -> nombre de joueurs)
+    Système :
+        1 phase de jeu -> 1 élimination 
+        Total de n-1 phases de jeu (n>=4 -> nombre de joueurs)
 
-Jeu de base → Liste de questions réponses
-Les participants répondent à tour de rôle
-En fonction des réponses : score cumulé par joueur et les participants avec les meilleurs scores sont sélectionnés pour les phases suivantes.
+    Jeu de base → Liste de questions réponses
+    Les participants répondent à tour de rôle
+    En fonction des réponses : score cumulé par joueur et les participants avec les meilleurs scores sont sélectionnés pour les phases suivantes.
 
 ---------- PREMIERE PARTIE ----------
 
@@ -161,4 +159,37 @@ III - Phase 3
     - Les deux questions de niveau difficile porteront sur trois thèmes choisis par le concepteur du jeu
     - 1 question de niveau difficile (dans le thème choisi) est sélectionnée selon la politique de RR et présentée au joueur
     - Le score du joueur donnant la bonne réponse est incrémenté de 5
-    
+
+Description de l'application
+
+    L'application doit permettre de réaliser les actions suivantes :
+
+    - Afficher les 10 thèmes choisis
+    - Créer une liste de questions pour chaque thème
+    - Afficher toutes les questions d’un niveau n donné par thème
+    - Ajouter une question à la liste pour un thème donné
+    - Supprimer une question de numéro n de la liste pour un thème donné
+    - Créer le tableau de joueurs et afficher leurs états
+    - Lancer une partie du jeu avec 4 joueurs choisis en affichant toutes les étapes du déroulement du jeu
+    - Quitter le jeu
+    - D’autres actions peuvent être ajoutées si nécessaire.
+
+Fonctionnalités optionnelles BONUS
+
+Gestion de conflit
+
+    Pour chaque joueur un timer régis par un Thread est associé. Il démarre lorsque son joueur obtient la main pour répondre à la question, et s’arrête dès que la réponse est fournie.
+    En cas d’égalité de scores entre les joueurs à une phase donnée, ils seront départagés grâce aux valeurs des timers. Ainsi, les joueurs ayant été les plus rapides seront ceux qui se qualifient à la phase d’après.
+    Dans le cas d’égalité, à la fois, des scores et timers, proposer jusqu’à trois questions supplémentaires pour les départager. Après cela, faire une sélection aléatoire pour passer à l’étape suivante. 
+
+Le grand jeu
+
+    Faire en sorte que l’application permette de considérer 3 groupes de 4 joueurs : 
+        - Implémenter une partie de jeu pour chaque groupe de 4 joueurs
+        - Récupérer les numéros des trois joueurs gagnants
+        - Implémenter le grand jeu entre les trois joueurs gagnants, la même politique est reprise commençant à la phase II qui comportera trois thèmes au choix et une question par joueur.
+        - Affichant toutes les étapes du déroulement du jeu. 
+
+Implémenter une IA
+
+    Utiliser les threads pour jouer le rôle de joueurs et répondre aléatoirement aux questions dans le cadre d’une partie de jeu complète.
