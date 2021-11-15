@@ -6,6 +6,10 @@ Histoire
 Cinématographie
 Science et Nature
 Musique
+Animé
+Informatique
+Divertissement
+Mathématiques
 
 - Questions thème Sport :
 
@@ -157,7 +161,9 @@ Le premier film au monde a été projeté à Lyon, Vrai ou Faux ?
 1) Vrai (Bonne réponse)
 2) Faux
 
-
+Le réalisateur du film Kill Bill est Quentin Tarantino ?
+1) Vrai (Bonne réponse)
+2) Faux
 
 RC
 Quel est l'acteur dont la réplique connue en français est "Je reviendrai" ?
@@ -166,12 +172,48 @@ Réponse : Arnold Schwarzenegger
 Quelle est la première série française ?
 Réponse : Agence Nostradamus
 
+Le nom de la saga culte dont l'histoire tourne autour d'un anneau ?
+Réponse : Le Seigneur des Anneaux
+
 - Questions thème Science et Nature :
 QCM
+Combien y-a-t'il de planète dans notre système solaire ?
+1) 8 (vrai)
+2) 9
+3) 10
+
+Quelle est l'insecte dont la femelle mange le male lors d'un accouchement ?
+1) La mante religieuse (Vrai)
+2) la fourmis
+3) le scarabé
+
+Quelle est le nom du plus grand fleuve au monde ?
+1) L'Amazone
+2) Le Rhin
+3) La Seine
 
 VF
+Pluton est une planète naine, Vrai ou Faux ?
+1) Vrai (Bonne réponse)
+2) Faux
+
+L'ailliage or-platine est le métal le plus solide ?
+1) Vrai (Bonne réponse)
+2) Faux
+
+Le gland de lait existe-t-il ?
+1) Vrai
+2) Faux (Bonne réponse)
 
 RC
+Le nom de notre galaxie ?
+Réponse : La voie lactée
+
+Le nombre de dents minimum que possèdent les requins ?
+Réponse : 190
+
+Le noom de l'oiseau qu'il y a le plus à Paris ?
+Réponse : Pigeon
 
 - Questions thème Musique :
 QCM
@@ -212,3 +254,45 @@ Réponse : Maes
 
 Le style de musique le plus écouté au monde ?
 Réponse : La Pop
+
+- Questions thème Animé
+QCM
+
+Quel est le nom du personnage principal de Tokyo Ghoul ?
+1) Kaneki Ken (Vrai)
+2) Senjuro Funebaichi
+3) Lize Sukehiro
+
+Quel est le style d'animé le plus connu ?
+1) Shonen (Vrai)
+2) Ecchi
+3) Slice of Life
+
+Quel est le nom de l'animé dont l'histoire parle d'un enfant née dans un monde sans pouvoir ?
+1) Tokyo Revengers
+2) 
+
+VF
+
+RC
+
+- Questions thème Informatique
+QCM
+
+VF
+
+RC
+
+- Questions thème Divertissement
+QCM
+
+VF
+
+RC
+
+- Questions thème Mathématique
+QCM
+
+VF
+
+RC
