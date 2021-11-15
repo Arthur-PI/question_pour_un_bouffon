@@ -1,6 +1,5 @@
 package main;
-import questions.Question;
-import questions.TypeQuestion;
+import questions.Themes;
 
 import static questions.TypeQuestion.*;
 
@@ -13,8 +12,7 @@ public class main {
 		}
 		Game.generateParticipants();
 		System.out.println(Game);
-
-		Question q = new Question("Quel est le nom du personnage principal dans Tokyo Ghoul ?", "Kaneki Ken", new String[]{"Kaneki Ken", "Senjuro Funebaichi", "Lize Sukehiro"}, QCM, 1);
-		System.out.println(q);
+		Themes themes = new Themes();
+		System.out.println(themes);
 	}
 }

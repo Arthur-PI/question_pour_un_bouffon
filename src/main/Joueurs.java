@@ -18,7 +18,7 @@ public class Joueurs {
 	}
 
 	public static int getRandomDoubleBetweenRange(int min, int max){
-		double x = (Math.random() * ((max - min) + 1)) + min;
+		double x = (Math.random() * (max - min)) + min;
 		return (int) Math.round(x);
 	}
 
