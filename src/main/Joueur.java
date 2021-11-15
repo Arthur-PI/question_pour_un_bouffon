@@ -58,6 +58,6 @@ public class Joueur {
 
 	@Override
 	public String toString(){
-		return "| "+getNumero()+ " | "+getNom()+ " | "+getEtat()+ " | "+getScore();
+		return "| "+getNumero()+ " | "+getNom()+ " | "+getEtat()+ " | "+getScore()+"\n";
 	}
 }
