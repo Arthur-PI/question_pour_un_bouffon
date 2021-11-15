@@ -1,2 +1,2 @@
-# question_pour_un_bouffon
+# Question pour un Bouffon
 Projet de prog java S5 Efrei
