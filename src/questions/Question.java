@@ -1,5 +1,7 @@
 package questions;
 
+import java.util.Arrays;
+
 import static questions.TypeQuestion.*;
 
 public class Question {
@@ -13,6 +15,8 @@ public class Question {
 		this.question = question;
 		this.response = response;
 		this.type = type;
+		if (difficulty < 1) difficulty = 0;
+		else if (difficulty > 3) difficulty = 3;
 		this.difficulty = difficulty;
 	}
 
@@ -63,5 +67,10 @@ public class Question {
 
 	public boolean checkResponse (String response) {
 		return response.equals(this.response);
+	}
+
+	@Override
+	public String toString () {
+		return "Question: " + question + "; Choix: " + Arrays.toString(choices) + "; Réponse: " + response + "; Type: " + this.type + "; Difficulté: " + this.difficulty;
 	}
 }
