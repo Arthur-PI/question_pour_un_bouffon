@@ -270,29 +270,159 @@ Quel est le style d'animé le plus connu ?
 
 Quel est le nom de l'animé dont l'histoire parle d'un enfant née dans un monde sans pouvoir ?
 1) Tokyo Revengers
-2) 
+2) My Hero Academia (Vrai)
+3) Shinmai mao no Testament
 
 VF
 
+Eiichiro Oda est l'auteur de Prison School, vrai ou faux ?
+1) Vrai
+2) Faux (Bonne réponse)
+
+Les personnages principaux de Dragon Ball viennent de l'univers 7, vrai ou faux ?
+1) Vrai (Bonne réponse)
+2) Faux
+
+Le personnage principal de Jujutsu Kaisen s'appelle Yuji Itodoki ?
+1) Vrai
+2) Faux (Bonne réponse)
+
 RC
+
+Le nom du titan de Eren Jäger dans L'attaque des titans ?
+Réponse : Le Titan Primordial
+
+Le nom de l'animé dans lequel le personnage principal est le seul a ne pas avoir de pouvoir magique ?
+Réponse : Black Clover
+
+Le nom de l'oeuvre sortie en animé récement dont l'auteur est celui de Death Note ?
+Réponse : Platinium End
 
 - Questions thème Informatique
 QCM
 
+Le language de programmation le plus ancienne existant ?
+1) C
+2) Fortran (Bonne réponse)
+3) Kotlin
+
+La gamme de carte graphique chez Nvidia les plus récentes ?
+1) GTX
+2) RTX  Bonne réponse
+3) STX
+
+Le nombre d'adresse IPv4 dans le monde est de ?
+1) 10 milliars
+2) 5,7 milliards
+3) 4,3 milliards (Bonne réponse)
+
 VF
 
+Le modèle OSI concerne la gestion de la mémoire vive dans un ordianteur, vrai ou faux ?
+1) Vrai
+2) Faux (Bonne réponse)
+
+Les catégories les plus récente de mémoires vives sont les DDR5, vrai ou faux ?
+1) Vrai (Bonne réponse)
+2) Faux 
+
+Une adresse IP est une adresse physique, vrai ou faux ?
+1) Vrai
+2) Faux (Bonne réponse)
+
 RC
+
+Qu'appelle-t-on le Co-processeur ?
+Réponse : La Carte Graphique
+
+Quelle language de programmation a été utilisé pour développer Minecraft ?
+Réponse : Java
+
+A qui le logo de la marque Apple rend-il hommage ?
+Réponse : Alan Turring
 
 - Questions thème Divertissement
 QCM
 
+Quel est la plateforme la plus utilisée pour écouter de la musique ?
+1) Spotify
+2) Deezer
+3) Youtube (Vrai)
+
+Quelle est la série la plus visionnée dans le monde sur la plateforme Netflix ?
+1) Squid Game
+2) Arcane (Vrai)
+3) Vikings
+
+Quelle équipe Esport à gagner le tournoi CSGO Blast Premier Fall Final 2021 ?
+1) Vitality
+2) Navi (Vrai)
+3) WarnadoEsport
+
 VF
+
+Les elytras sont l'une des meilleurs invention du jeu Minecraft, vrai ou faux ?
+1) Vrai (Bonne réponse)
+2) Faux
+
+Le Zevent 2021 à rapporté environ 10 millions d'euros, vrai ou faux ?
+1) Vrai (Bonne réponse)
+2) Faux
+
+Lionnel Messi a reçu un ballon d'or en 2021 ?
+1) Vrai (Bonne réponse)
+2) Faux
 
 RC
 
-- Questions thème Mathématique
+Le nom du dernier album de Maes ?
+Réponse : Réel Vie 3.0
+
+Comment s'appelle les personnes qui répondent "réel mais reste digne" dans les commantaires Twitter ?
+Réponse : Pessi
+
+Le nom des bots dans le jeu Escape from tarkov ?
+Réponse : Scav
+
+- Questions thème Mathématiques
 QCM
 
+Quand on été créer les Mathématiques ?
+1)VIème siècle avant JC (Vrai)
+2) 500 ans avant JC
+3) IIème siècle avant JC
+
+Dans quelle période est né Thalès ?
+1) Grèce nouvelle
+2) Grèce antique (Vrai)
+3) Renaissance
+
+Pourquoi le philosophe Pythagore est-il connu ?
+1) Il a créer un algorythme
+2) Il a créer un théorême
+3) C'est un mec sympa sah
+
 VF
 
+1 + 1 = 2, vrai ou faux ?
+1) Vrai (Bonne réponse)
+2) Faux
+
+On étudie les mathématiques dès l'école primaire, vrai ou faux ?
+1) Vrai (Bonne réponse)
+2) Faux
+
+Archimède était un mathématicien, vrai ou faux ?
+1) Vrai (Bonne réponse)
+2) Faux
+
 RC
+
+Quelle est la probabilitée d'obtenir deux fois de suite la même face lors d'un lancé de dé ?
+Réponse : 0.375 ou 6/16
+
+Quel théorême doit-on utiliser lorsque l'on souhaite calculer la taille d'un côté d'un triangle rectangle ?
+Réponse : Théorême de Pythagore
+
+Quel est la racine carré de 121 ?
+Réponse : 11
