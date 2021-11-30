@@ -6,9 +6,11 @@ import static main.Status.SELECTIONNER;
 
 public class Themes {
     private ArrayList<Theme> themes;
+    private int nbThemes;
 
     public Themes() {
         this.themes = new ArrayList<Theme>();
+        this.nbThemes = 0;
         this.themes.add(new Theme("Sport",false));
         this.themes.add(new Theme("Géographie",false));
         this.themes.add(new Theme("Histoire",false));
@@ -30,8 +32,30 @@ public class Themes {
         return 0;
     }
 
-    public int SelectTheme(String theme){
+    public static int getRandomDoubleBetweenRange(int min, int max){
+        double x = (Math.random() * (max - min)) + min;
+        return (int) Math.round(x);
+    }
+
+    public int selectTheme(String theme){
         return indexOf(theme);
+    }
+
+    public Theme selectRandomThemes() {
+        Theme selectTheme =  this.themes.get(getRandomDoubleBetweenRange(0,9));
+        do {
+            selectTheme =  this.themes.get(getRandomDoubleBetweenRange(0,9));
+            if (nbThemes == 10) {
+                nbThemes = 0;
+                for (int i = 0; i < this.themes.size(); i++) {
+                    this.themes.get(i).setIndicateur(false);
+                }
+            }
+        } while (selectTheme.isIndicateur());
+        selectTheme.setIndicateur(true);
+        nbThemes++;
+        System.out.println(nbThemes);
+        return selectTheme;
     }
 
     @Override
