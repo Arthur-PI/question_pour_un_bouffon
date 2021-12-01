@@ -31,6 +31,302 @@
     "reponse" : true
   },
   {
-    "type": "LIBRE"
+    "type": "VRAI_FAUX",
+    "niveau": 3,
+    "theme" : "Sport",
+    "question": "L'Espagne a gagné les championats du monde du HandBall, Vrai ou Faux ?",
+    "reponse" : false
+  },
+  {
+    "type": "VRAI_FAUX",
+    "niveau": 3,
+    "theme" : "Sport",
+    "question": "La marathon de paris a eu lieu en 2020, Vrai ou Faux ??",
+    "reponse" : false
+  },
+  {
+    "type": "LIBRE",
+    "niveau": 3,
+    "theme" : "Sport",
+    "question": "Quel est le nombre de participants au VendéeGlobe de l'édition 2020-2021 ?",
+    "reponse" : "33"
+  },
+  {
+    "type": "LIBRE",
+    "niveau": 3,
+    "theme" : "Sport",
+    "question": "Combien de discipline ont été exercée au Jeux Olympique de 2021 ?",
+    "reponse" : "33"
+  },
+  {
+    "type": "LIBRE",
+    "niveau": 3,
+    "theme" : "Sport",
+    "question": "Quel joueur de tennis ayant le plus de victoire (Grand Chelem et majeurs ) ?",
+    "reponse" : "Roger Federer"
+  },
+  {
+    "type": "QCM",
+    "niveau": 1,
+    "theme" : "Géographie",
+    "question": "Quel est l'Etat le plus vaste du monde ?",
+    "choix" : ["Les Etats-Unis", "La Russie", "La France"],
+    "reponse" : "La Russie"
+  },
+  {
+    "type": "QCM",
+    "niveau": 2,
+    "theme" : "Géographie",
+    "question": "Quel est le plus petit pays du monde ?",
+    "choix" : ["Sealand", "Luxembourg", "Ouzbékistan"],
+    "reponse" : "Sealand"
+  },
+  {
+    "type": "QCM",
+    "niveau": 3,
+    "theme" : "Géographie",
+    "question": "Quel est le pays ayant le plus de Volcan ?",
+    "choix" : ["France", "Italie", "Indonésie"],
+    "reponse" : "Indonésie"
+  },
+  {
+    "type": "VRAI_FAUX",
+    "niveau": 3,
+    "theme" : "Géographie",
+    "question": "Les Etats-Unis contiennent 53 etats, Vrai ou Faux ?",
+    "reponse" : false
+  },
+  {
+    "type": "VRAI_FAUX",
+    "niveau": 3,
+    "theme" : "Géographie",
+    "question": "Il y a 27 pays dans l'Union Européene, Vrai ou Faux ?",
+    "reponse" : true
+  },
+  {
+    "type": "VRAI_FAUX",
+    "niveau": 3,
+    "theme" : "Géographie",
+    "question": "Il y a 49 pays en Asie, Vrai ou Faux ?",
+    "reponse" : true
+  },
+  {
+    "type": "LIBRE",
+    "niveau": 3,
+    "theme" : "Géographie",
+    "question": "Quel est la plus grande fôret du monde ?",
+    "reponse" : "Amazonie"
+  },
+  {
+    "type": "LIBRE",
+    "niveau": 3,
+    "theme" : "Géographie",
+    "question": "Quelle est le nom de la ville/village construit batit le plus haut du monde ?",
+    "reponse" : "La Riconoda"
+  },
+  {
+    "type": "LIBRE",
+    "niveau": 3,
+    "theme" : "Géographie",
+    "question": "Quelle est la capitale du Pérou ?",
+    "reponse" : "Lima"
+  },
+  {
+    "type": "QCM",
+    "niveau": 1,
+    "theme" : "Histoire",
+    "question": "Quels étaient les pays membres de l'Axe pendant la seconde guerre mondiale ?",
+    "choix" : ["Allemagne, Japon et Italie", "France, Angleterre et Russie", "Le Pérou, La Chine et le Groenland"],
+    "reponse" : "Allemagne, Japon et Italie"
+  },
+  {
+    "type": "QCM",
+    "niveau": 2,
+    "theme" : "Histoire",
+    "question": "Combien de temps a duré la guerre la plus courte ?",
+    "choix" : ["1h47min", "38 minutes", "45 secondes"],
+    "reponse" : "38 minutes"
+  },
+  {
+    "type": "QCM",
+    "niveau": 3,
+    "theme" : "Histoire",
+    "question": "Dans quelle pays à été conçue la vodka ? ?",
+    "choix" : ["Russie", "Ukraine", "Japon"],
+    "reponse" : "Russie"
+  },
+  {
+    "type": "VRAI_FAUX",
+    "niveau": 3,
+    "theme" : "Histoire",
+    "question": "L'union Européene a été fondé en 1993, Vrai ou Faux ?",
+    "reponse" : true
+  },
+  {
+    "type": "VRAI_FAUX",
+    "niveau": 3,
+    "theme" : "Histoire",
+    "question": "La bataille de Verdun a débuté en 1916, Vrai ou Faux ?",
+    "reponse" : true
+  },
+  {
+    "type": "VRAI_FAUX",
+    "niveau": 3,
+    "theme" : "Histoire",
+    "question": "Le katana est un sabre japonais, Vrai ou Faux ?",
+    "reponse" : true
+  },
+  {
+    "type": "LIBRE",
+    "niveau": 3,
+    "theme" : "Histoire",
+    "question": "Quand la machine à vapeur a-t-elle été crée ?",
+    "reponse" : "1712"
+  },
+  {
+    "type": "LIBRE",
+    "niveau": 3,
+    "theme" : "Histoire",
+    "question": "Quelle est la date approximative de la découverte du café ?",
+    "reponse" : "850"
+  },
+  {
+    "type": "LIBRE",
+    "niveau": 3,
+    "theme" : "Histoire",
+    "question": "Quelle est le premier jeu-vidéo apparu dans le monde ??",
+    "reponse" : "Pong"
+  },
+  {
+    "type": "QCM",
+    "niveau": 1,
+    "theme" : "Cinématographie",
+    "question": "Combien de film Star Wars sont sortis ?",
+    "choix" : ["5", "8", "12"],
+    "reponse" : "12"
+  },
+  {
+    "type": "QCM",
+    "niveau": 2,
+    "theme" : "Cinématographie",
+    "question": "Quel est l'acteur de James Bond ?",
+    "choix" : ["Daniel Craig", "Daniel Radcliff", "Daniel Balavoine"],
+    "reponse" : "Daniel Craig"
+  },
+  {
+    "type": "QCM",
+    "niveau": 3,
+    "theme" : "Cinématographie",
+    "question": "Combien de temps dure le film le plus long du monde ?",
+    "choix" : ["135 heures", "720 heures", "837 heures"],
+    "reponse" : "720 heures"
+  },
+  {
+    "type": "VRAI_FAUX",
+    "niveau": 3,
+    "theme" : "Cinématographie",
+    "question": "L'acteur Léonaro Di Caprio a déjà joué dans la série The Walking Dead, Vrai ou Faux ?",
+    "reponse" : false
+  },
+  {
+    "type": "VRAI_FAUX",
+    "niveau": 3,
+    "theme" : "Cinématographie",
+    "question": "Le premier film au monde a été projeté à Lyon, Vrai ou Faux ?",
+    "reponse" : true
+  },
+  {
+    "type": "VRAI_FAUX",
+    "niveau": 3,
+    "theme" : "Cinématographie",
+    "question": "Le réalisateur du film Kill Bill est Quentin Tarantino ?",
+    "reponse" : true
+  },
+  {
+    "type": "LIBRE",
+    "niveau": 3,
+    "theme" : "Cinématographie",
+    "question": "Quel est l'acteur dont la réplique connue en français est 'Je reviendrai' ?",
+    "reponse" : "Arnold Schwarzenegger"
+  },
+  {
+    "type": "LIBRE",
+    "niveau": 3,
+    "theme" : "Cinématographie",
+    "question": "Quelle est la première série française ?",
+    "reponse" : "Agence Nostradamus"
+  },
+  {
+    "type": "LIBRE",
+    "niveau": 3,
+    "theme" : "Cinématographie",
+    "question": "Le nom de la saga culte dont l'histoire tourne autour d'un anneau ?",
+    "reponse" : "Le Seigneur des Anneaux"
+  },
+  {
+    "type": "QCM",
+    "niveau": 1,
+    "theme" : "Science et Nature",
+    "question": "Combien y-a-t'il de planète dans notre système solaire ?",
+    "choix" : ["8", "9", "10"],
+    "reponse" : "8"
+  },
+  {
+    "type": "QCM",
+    "niveau": 2,
+    "theme" : "Science et Nature",
+    "question": "Quelle est l'insecte dont la femelle mange le male lors d'un accouchement ?",
+    "choix" : ["La mante religieuse", "La fourmis", "Le scarabé"],
+    "reponse" : "La mante religieuse"
+  },
+  {
+    "type": "QCM",
+    "niveau": 3,
+    "theme" : "Science et Nature",
+    "question": "Quelle est le nom du plus grand fleuve au monde ?",
+    "choix" : ["L'Amazone", "Le Rhin", "La Seine"],
+    "reponse" : "L'Amazone"
+  },
+  {
+    "type": "VRAI_FAUX",
+    "niveau": 3,
+    "theme" : "Science et Nature",
+    "question": "Pluton est une planète naine, Vrai ou Faux ?",
+    "reponse" : true
+  },
+  {
+    "type": "VRAI_FAUX",
+    "niveau": 3,
+    "theme" : "Science et Nature",
+    "question": "L'ailliage or-platine est le métal le plus solide ?",
+    "reponse" : true
+  },
+  {
+    "type": "VRAI_FAUX",
+    "niveau": 3,
+    "theme" : "Science et Nature",
+    "question": "Le gland de lait existe-t-il ?",
+    "reponse" : false
+  },
+  {
+    "type": "LIBRE",
+    "niveau": 3,
+    "theme" : "Science et Nature",
+    "question": "Le nom de notre galaxie ?",
+    "reponse" : "La voie lactée"
+  },
+  {
+    "type": "LIBRE",
+    "niveau": 3,
+    "theme" : "Science et Nature",
+    "question": "Le nombre de dents minimum que possèdent les requins ?",
+    "reponse" : "190"
+  },
+  {
+    "type": "LIBRE",
+    "niveau": 3,
+    "theme" : "Science et Nature",
+    "question": "Le nom de l'oiseau qu'il y a le plus à Paris ?",
+    "reponse" : "Pigeon"
   }
 ]
