@@ -54,7 +54,6 @@ public class Themes {
         } while (selectTheme.isIndicateur());
         selectTheme.setIndicateur(true);
         nbThemes++;
-        System.out.println(nbThemes);
         return selectTheme;
     }
 

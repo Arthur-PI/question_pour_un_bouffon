@@ -1,5 +1,6 @@
 package main;
 
+import questions.Theme;
 import questions.Themes;
 
 public class Phases {
@@ -21,8 +22,9 @@ public class Phases {
         System.out.println(this.game);
         System.out.println(this.themes);
         for (int i = 0; i < 10; i++) {
-            themes.selectRandomThemes();
+            Theme theme= themes.selectRandomThemes();
+            System.out.println("Le thème selectionné est :"+theme.getNom());
+            System.out.println("En attente des réponses des joueurs...\n");
         }
-        System.out.println(this.themes);
     }
 }

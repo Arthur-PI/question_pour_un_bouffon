@@ -1,0 +1,36 @@
+[
+  {
+    "type": "QCM",
+    "niveau": 1,
+    "theme" : "Sport",
+    "question": "Quelle équipe de foot a gagné la coupe du Monde en 2018 ?",
+    "choix" : ["France", "Portugal", "Brésil"],
+    "reponse" : "France"
+  },
+  {
+    "type": "QCM",
+    "niveau": 2,
+    "theme" : "Sport",
+    "question": "Quel a été le score final du match France - Kazakstan en 2021?",
+    "choix" : ["8-0", "2-3", "1-0"],
+    "reponse" : "8-0"
+  },
+  {
+    "type": "QCM",
+    "niveau": 3,
+    "theme" : "Sport",
+    "question": "Quel est le record de temps de course au 100m ?",
+    "choix" : ["9s58", "9s59", "10s47"],
+    "reponse" : "9s58"
+  },
+  {
+    "type": "VRAI_FAUX",
+    "niveau": 3,
+    "theme" : "Sport",
+    "question": "La Serbie a gagné le match de qualfication à la coupe du monde contre le portugal en 2021, Vrai ou Faux ?",
+    "reponse" : true
+  },
+  {
+    "type": "LIBRE"
+  }
+]
