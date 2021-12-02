@@ -328,5 +328,335 @@
     "theme" : "Science et Nature",
     "question": "Le nom de l'oiseau qu'il y a le plus à Paris ?",
     "reponse" : "Pigeon"
+  },
+  {
+    "type": "QCM",
+    "niveau": 1,
+    "theme" : "Musique",
+    "question": "En quelle année le groupe de pop suédois, ABBA, s'est-il séparé ?",
+    "choix" : ["1980", "1981", "1982"],
+    "reponse" : "1982"
+  },
+  {
+    "type": "QCM",
+    "niveau": 2,
+    "theme" : "Musique",
+    "question": "Combien d'album ont sorti les rapeurs PNL ?",
+    "choix" : ["1", "4", "6"],
+    "reponse" : "4"
+  },
+  {
+    "type": "QCM",
+    "niveau": 3,
+    "theme" : "Musique",
+    "question": "Quel artiste a dit la punchline \"J'aime beaucoup ce que tu proposes\" ?",
+    "choix" : ["Ziak", "Fiak", "Britney Spears"],
+    "reponse" : "Ziak"
+  },
+  {
+    "type": "VRAI_FAUX",
+    "niveau": 3,
+    "theme" : "Musique",
+    "question": "Le rapeur Niska a dit dans un de ses sons : \"tu sers à rien comme un brocoli\", Vrai ou Faux ?",
+    "reponse" : true
+  },
+  {
+    "type": "VRAI_FAUX",
+    "niveau": 3,
+    "theme" : "Musique",
+    "question": "Le chanteur Colonel Reyel a réalisé un concert avec une entrée à 2 euros, vrai ou Faux ?",
+    "reponse" : true
+  },
+  {
+    "type": "VRAI_FAUX",
+    "niveau": 3,
+    "theme" : "Musique",
+    "question": "Les Beattles sont les artistes ayant vendu le plus d'album au monde, Vrai ou Faux ?",
+    "reponse" : true
+  },
+  {
+    "type": "LIBRE",
+    "niveau": 3,
+    "theme" : "Musique",
+    "question": "Le nom du rapeur qui a dit \"Frère si je sors la AK je sais qu'ils feront tous caca\" ?",
+    "reponse" : "Lacrim"
+  },
+  {
+    "type": "LIBRE",
+    "niveau": 3,
+    "theme" : "Musique",
+    "question": "Le nom du rapeur qui a fait une collaboration avec le rapeur Niska sur le son \"Blue Magic\" ?",
+    "reponse" : "Maes"
+  },
+  {
+    "type": "LIBRE",
+    "niveau": 3,
+    "theme" : "Musique",
+    "question": "Le style de musique le plus écouté au monde ?",
+    "reponse" : "La Pop"
+  },
+  {
+    "type": "QCM",
+    "niveau": 1,
+    "theme" : "Animé",
+    "question": "Quel est le nom du personnage principal de Tokyo Ghoul ?",
+    "choix" : ["Kaneki Ken", "Senjuro Funebaichi", "Lize Sukehiro"],
+    "reponse" : "Kaneki Ken"
+  },
+  {
+    "type": "QCM",
+    "niveau": 2,
+    "theme" : "Animé",
+    "question": "Quel est le style d'animé le plus connu ?\n1) Shonen (Vrai)",
+    "choix" : ["Shonen", "Ecchi", "Slice of Life"],
+    "reponse" : "Shonen"
+  },
+  {
+    "type": "QCM",
+    "niveau": 3,
+    "theme" : "Animé",
+    "question": "Quel est le nom de l'animé dont l'histoire parle d'un enfant née dans un monde sans pouvoir ?",
+    "choix" : ["Tokyo Revengers", "My Hero Academia", "Shinmai mao no Testament"],
+    "reponse" : "My Hero Academia"
+  },
+  {
+    "type": "VRAI_FAUX",
+    "niveau": 3,
+    "theme" : "Animé",
+    "question": "Eiichiro Oda est l'auteur de Prison School, vrai ou faux ?",
+    "reponse" : false
+  },
+  {
+    "type": "VRAI_FAUX",
+    "niveau": 3,
+    "theme" : "Animé",
+    "question": "Les personnages principaux de Dragon Ball viennent de l'univers 7, vrai ou faux ?",
+    "reponse" : true
+  },
+  {
+    "type": "VRAI_FAUX",
+    "niveau": 3,
+    "theme" : "Animé",
+    "question": "Le personnage principal de Jujutsu Kaisen s'appelle Yuji Itodoki ?",
+    "reponse" : false
+  },
+  {
+    "type": "LIBRE",
+    "niveau": 3,
+    "theme" : "Animé",
+    "question": "Le nom du titan de Eren Jäger dans L'attaque des titans ?",
+    "reponse" : "Le Titan Primordial"
+  },
+  {
+    "type": "LIBRE",
+    "niveau": 3,
+    "theme" : "Animé",
+    "question": "Le nom du rapeur qui a fait une collaboration avec le rapeur Niska sur le son \"Blue Magic\" ?",
+    "reponse" : "Black Clover"
+  },
+  {
+    "type": "LIBRE",
+    "niveau": 3,
+    "theme" : "Animé",
+    "question": "Le nom de l'oeuvre sortie en animé récement dont l'auteur est celui de Death Note ?",
+    "reponse" : "Platinium End"
+  },
+  {
+    "type": "QCM",
+    "niveau": 1,
+    "theme" : "Informatique",
+    "question": "Le language de programmation le plus ancienne existant ?",
+    "choix" : ["C", "Fortran", "Kotlin"],
+    "reponse" : "Fortran"
+  },
+  {
+    "type": "QCM",
+    "niveau": 2,
+    "theme" : "Informatique",
+    "question": "La gamme de carte graphique chez Nvidia les plus récentes ?",
+    "choix" : ["GTX", "RTX", "STX"],
+    "reponse" : "RTX"
+  },
+  {
+    "type": "QCM",
+    "niveau": 3,
+    "theme" : "Informatique",
+    "question": "Le nombre d'adresse IPv4 dans le monde est de ?",
+    "choix" : ["10 milliars", "5,7 milliards", "4,3 milliards"],
+    "reponse" : "4,3 milliards"
+  },
+  {
+    "type": "VRAI_FAUX",
+    "niveau": 3,
+    "theme" : "Informatique",
+    "question": "Le modèle OSI concerne la gestion de la mémoire vive dans un ordianteur, vrai ou faux ?",
+    "reponse" : false
+  },
+  {
+    "type": "VRAI_FAUX",
+    "niveau": 3,
+    "theme" : "Informatique",
+    "question": "Les catégories les plus récente de mémoires vives sont les DDR5, vrai ou faux ?",
+    "reponse" : true
+  },
+  {
+    "type": "VRAI_FAUX",
+    "niveau": 3,
+    "theme" : "Informatique",
+    "question": "Une adresse IP est une adresse physique, vrai ou faux ?",
+    "reponse" : false
+  },
+  {
+    "type": "LIBRE",
+    "niveau": 3,
+    "theme" : "Informatique",
+    "question": "Qu'appelle-t-on le Co-processeur ?",
+    "reponse" : "La Carte Graphique"
+  },
+  {
+    "type": "LIBRE",
+    "niveau": 3,
+    "theme" : "Informatique",
+    "question": "Quelle language de programmation a été utilisé pour développer Minecraft ?",
+    "reponse" : "Java"
+  },
+  {
+    "type": "LIBRE",
+    "niveau": 3,
+    "theme" : "Informatique",
+    "question": "A qui le logo de la marque Apple rend-il hommage ?",
+    "reponse" : "Alan Turring"
+  },
+  {
+    "type": "QCM",
+    "niveau": 1,
+    "theme" : "Divertissement",
+    "question": "Quel est la plateforme la plus utilisée pour écouter de la musique ?",
+    "choix" : ["Spotify", "Deezer", "Youtube"],
+    "reponse" : "Youtube"
+  },
+  {
+    "type": "QCM",
+    "niveau": 2,
+    "theme" : "Divertissement",
+    "question": "Quelle est la série la plus visionnée dans le monde sur la plateforme Netflix, en ce moment ?\n",
+    "choix" : ["Squid Game", "Arcane", "Vikings"],
+    "reponse" : "Arcane"
+  },
+  {
+    "type": "QCM",
+    "niveau": 3,
+    "theme" : "Divertissement",
+    "question": "Quelle équipe Esport à gagner le tournoi CSGO Blast Premier Fall Final 2021 ?",
+    "choix" : ["Vitality", "Navi", "WarnadoEsport"],
+    "reponse" : "Navi"
+  },
+  {
+    "type": "VRAI_FAUX",
+    "niveau": 3,
+    "theme" : "Divertissement",
+    "question": "Les elytras sont l'une des meilleurs invention du jeu Minecraft, vrai ou faux ?",
+    "reponse" : true
+  },
+  {
+    "type": "VRAI_FAUX",
+    "niveau": 3,
+    "theme" : "Divertissement",
+    "question": "Le Zevent 2021 à rapporté environ 10 millions d'euros, vrai ou faux ?",
+    "reponse" : true
+  },
+  {
+    "type": "VRAI_FAUX",
+    "niveau": 3,
+    "theme" : "Divertissement",
+    "question": "Lionel Messi a reçu un ballon d'or en 2021 ?",
+    "reponse" : true
+  },
+  {
+    "type": "LIBRE",
+    "niveau": 3,
+    "theme" : "Divertissement",
+    "question": "Le nom du dernier album de Maes ?",
+    "reponse" : "Réel Vie 3.0"
+  },
+  {
+    "type": "LIBRE",
+    "niveau": 3,
+    "theme" : "Divertissement",
+    "question": "Comment s'appelle les personnes qui répondent \"réel mais reste digne\" dans les commantaires Twitter ?",
+    "reponse" : "Pessi"
+  },
+  {
+    "type": "LIBRE",
+    "niveau": 3,
+    "theme" : "Divertissement",
+    "question": "Le nom des bots dans le jeu Escape from tarkov ?",
+    "reponse" : "Scav"
+  },
+  {
+    "type": "QCM",
+    "niveau": 1,
+    "theme" : "Mathématiques",
+    "question": "Quand on été créer les Mathématiques ?",
+    "choix" : ["VIème siècle avant JC", "500 ans avant JC", "IIème siècle avant JC"],
+    "reponse" : "VIème siècle avant JC"
+  },
+  {
+    "type": "QCM",
+    "niveau": 2,
+    "theme" : "Mathématiques",
+    "question": "Dans quelle période est né Thalès ?",
+    "choix" : ["Grèce nouvelle", "Grèce antique", "Renaissance"],
+    "reponse" : "Grèce antique"
+  },
+  {
+    "type": "QCM",
+    "niveau": 3,
+    "theme" : "Mathématiques",
+    "question": "Pourquoi le philosophe Pythagore est-il connu ?",
+    "choix" : ["Il a créer un algorythme", "Il a créer un théorême", "C'est un mec sympa sah"],
+    "reponse" : "Il a créer un théorême"
+  },
+  {
+    "type": "VRAI_FAUX",
+    "niveau": 3,
+    "theme" : "Mathématiques",
+    "question": "1 + 1 = 2, vrai ou faux ?",
+    "reponse" : true
+  },
+  {
+    "type": "VRAI_FAUX",
+    "niveau": 3,
+    "theme" : "Mathématiques",
+    "question": "On étudie les mathématiques dès l'école primaire, vrai ou faux ?",
+    "reponse" : true
+  },
+  {
+    "type": "VRAI_FAUX",
+    "niveau": 3,
+    "theme" : "Mathématiques",
+    "question": "Archimède était un mathématicien, vrai ou faux ?",
+    "reponse" : true
+  },
+  {
+    "type": "LIBRE",
+    "niveau": 3,
+    "theme" : "Mathématiques",
+    "question": "Quelle est la probabilitée d'obtenir deux fois de suite la même face lors d'un lancé de dé ?",
+    "reponse" : "0.375 ou 6/16"
+  },
+  {
+    "type": "LIBRE",
+    "niveau": 3,
+    "theme" : "Mathématiques",
+    "question": "Quel théorême doit-on utiliser lorsque l'on souhaite calculer la taille d'un côté d'un triangle rectangle ?",
+    "reponse" : "Théorême de Pythagore"
+  },
+  {
+    "type": "LIBRE",
+    "niveau": 3,
+    "theme" : "Mathématiques",
+    "question": "Quel est la racine carré de 121 ?",
+    "reponse" : "11"
   }
 ]
