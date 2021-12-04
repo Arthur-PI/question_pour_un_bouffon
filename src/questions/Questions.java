@@ -1,11 +1,13 @@
 package questions;
 
 import java.util.ArrayList;
+import java.util.Random;
 
 public class Questions {
-	private ArrayList<Question> questions;
+	private static final String QUESTIONS_FILE = "questions.json";
+	private final ArrayList<Question> questions;
 
-	public Questions () {
+	public Questions() {
 		questions = new ArrayList<>();
 	}
 
@@ -17,7 +19,17 @@ public class Questions {
 		if (i > 0 && i < questions.size()) questions.remove(i);
 	}
 
-	public Question getQuestion(String theme){
-		return questions.get(0);
+	public void loadQuestions() {
+
+	}
+
+	public Question getQuestion(String theme, Difficulties level) {
+		Random rand = new Random();
+		Question q;
+		int n;
+		do {
+			q = questions.get(rand.nextInt(questions.size()));
+		} while (q.getDifficulty() == level && !q.getTheme().equals(theme));
+		return q;
 	}
 }
