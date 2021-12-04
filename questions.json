@@ -5,7 +5,7 @@
     "theme" : "Sport",
     "question": "Quelle équipe de foot a gagné la coupe du Monde en 2018 ?",
     "choix" : ["France", "Portugal", "Brésil"],
-    "reponse" : "France"
+    "reponse" : 1
   },
   {
     "type": "QCM",
@@ -13,7 +13,7 @@
     "theme" : "Sport",
     "question": "Quel a été le score final du match France - Kazakstan en 2021?",
     "choix" : ["8-0", "2-3", "1-0"],
-    "reponse" : "8-0"
+    "reponse" : 1
   },
   {
     "type": "QCM",
@@ -21,7 +21,7 @@
     "theme" : "Sport",
     "question": "Quel est le record de temps de course au 100m ?",
     "choix" : ["9s58", "9s59", "10s47"],
-    "reponse" : "9s58"
+    "reponse" : 1
   },
   {
     "type": "VRAI_FAUX",
@@ -71,7 +71,7 @@
     "theme" : "Géographie",
     "question": "Quel est l'Etat le plus vaste du monde ?",
     "choix" : ["Les Etats-Unis", "La Russie", "La France"],
-    "reponse" : "La Russie"
+    "reponse" : 2
   },
   {
     "type": "QCM",
@@ -79,7 +79,7 @@
     "theme" : "Géographie",
     "question": "Quel est le plus petit pays du monde ?",
     "choix" : ["Sealand", "Luxembourg", "Ouzbékistan"],
-    "reponse" : "Sealand"
+    "reponse" : 1
   },
   {
     "type": "QCM",
@@ -87,7 +87,7 @@
     "theme" : "Géographie",
     "question": "Quel est le pays ayant le plus de Volcan ?",
     "choix" : ["France", "Italie", "Indonésie"],
-    "reponse" : "Indonésie"
+    "reponse" : 3
   },
   {
     "type": "VRAI_FAUX",
@@ -137,7 +137,7 @@
     "theme" : "Histoire",
     "question": "Quels étaient les pays membres de l'Axe pendant la seconde guerre mondiale ?",
     "choix" : ["Allemagne, Japon et Italie", "France, Angleterre et Russie", "Le Pérou, La Chine et le Groenland"],
-    "reponse" : "Allemagne, Japon et Italie"
+    "reponse" : 1
   },
   {
     "type": "QCM",
@@ -145,7 +145,7 @@
     "theme" : "Histoire",
     "question": "Combien de temps a duré la guerre la plus courte ?",
     "choix" : ["1h47min", "38 minutes", "45 secondes"],
-    "reponse" : "38 minutes"
+    "reponse" : 2
   },
   {
     "type": "QCM",
@@ -153,7 +153,7 @@
     "theme" : "Histoire",
     "question": "Dans quelle pays à été conçue la vodka ? ?",
     "choix" : ["Russie", "Ukraine", "Japon"],
-    "reponse" : "Russie"
+    "reponse" : 1
   },
   {
     "type": "VRAI_FAUX",
@@ -203,7 +203,7 @@
     "theme" : "Cinématographie",
     "question": "Combien de film Star Wars sont sortis ?",
     "choix" : ["5", "8", "12"],
-    "reponse" : "12"
+    "reponse" : 3
   },
   {
     "type": "QCM",
@@ -211,7 +211,7 @@
     "theme" : "Cinématographie",
     "question": "Quel est l'acteur de James Bond ?",
     "choix" : ["Daniel Craig", "Daniel Radcliff", "Daniel Balavoine"],
-    "reponse" : "Daniel Craig"
+    "reponse" : 1
   },
   {
     "type": "QCM",
@@ -219,7 +219,7 @@
     "theme" : "Cinématographie",
     "question": "Combien de temps dure le film le plus long du monde ?",
     "choix" : ["135 heures", "720 heures", "837 heures"],
-    "reponse" : "720 heures"
+    "reponse" : 2
   },
   {
     "type": "VRAI_FAUX",
@@ -269,7 +269,7 @@
     "theme" : "Science et Nature",
     "question": "Combien y-a-t'il de planète dans notre système solaire ?",
     "choix" : ["8", "9", "10"],
-    "reponse" : "8"
+    "reponse" : 1
   },
   {
     "type": "QCM",
@@ -277,7 +277,7 @@
     "theme" : "Science et Nature",
     "question": "Quelle est l'insecte dont la femelle mange le male lors d'un accouchement ?",
     "choix" : ["La mante religieuse", "La fourmis", "Le scarabé"],
-    "reponse" : "La mante religieuse"
+    "reponse" : 1
   },
   {
     "type": "QCM",
@@ -285,7 +285,7 @@
     "theme" : "Science et Nature",
     "question": "Quelle est le nom du plus grand fleuve au monde ?",
     "choix" : ["L'Amazone", "Le Rhin", "La Seine"],
-    "reponse" : "L'Amazone"
+    "reponse" : 1
   },
   {
     "type": "VRAI_FAUX",
@@ -335,7 +335,7 @@
     "theme" : "Musique",
     "question": "En quelle année le groupe de pop suédois, ABBA, s'est-il séparé ?",
     "choix" : ["1980", "1981", "1982"],
-    "reponse" : "1982"
+    "reponse" : 3
   },
   {
     "type": "QCM",
@@ -343,7 +343,7 @@
     "theme" : "Musique",
     "question": "Combien d'album ont sorti les rapeurs PNL ?",
     "choix" : ["1", "4", "6"],
-    "reponse" : "4"
+    "reponse" : 2
   },
   {
     "type": "QCM",
@@ -351,7 +351,7 @@
     "theme" : "Musique",
     "question": "Quel artiste a dit la punchline \"J'aime beaucoup ce que tu proposes\" ?",
     "choix" : ["Ziak", "Fiak", "Britney Spears"],
-    "reponse" : "Ziak"
+    "reponse" : 1
   },
   {
     "type": "VRAI_FAUX",
@@ -401,7 +401,7 @@
     "theme" : "Animé",
     "question": "Quel est le nom du personnage principal de Tokyo Ghoul ?",
     "choix" : ["Kaneki Ken", "Senjuro Funebaichi", "Lize Sukehiro"],
-    "reponse" : "Kaneki Ken"
+    "reponse" : 1
   },
   {
     "type": "QCM",
@@ -409,7 +409,7 @@
     "theme" : "Animé",
     "question": "Quel est le style d'animé le plus connu ?\n1) Shonen (Vrai)",
     "choix" : ["Shonen", "Ecchi", "Slice of Life"],
-    "reponse" : "Shonen"
+    "reponse" : 1
   },
   {
     "type": "QCM",
@@ -417,7 +417,7 @@
     "theme" : "Animé",
     "question": "Quel est le nom de l'animé dont l'histoire parle d'un enfant née dans un monde sans pouvoir ?",
     "choix" : ["Tokyo Revengers", "My Hero Academia", "Shinmai mao no Testament"],
-    "reponse" : "My Hero Academia"
+    "reponse" : 2
   },
   {
     "type": "VRAI_FAUX",
@@ -467,7 +467,7 @@
     "theme" : "Informatique",
     "question": "Le language de programmation le plus ancienne existant ?",
     "choix" : ["C", "Fortran", "Kotlin"],
-    "reponse" : "Fortran"
+    "reponse" : 2
   },
   {
     "type": "QCM",
@@ -475,7 +475,7 @@
     "theme" : "Informatique",
     "question": "La gamme de carte graphique chez Nvidia les plus récentes ?",
     "choix" : ["GTX", "RTX", "STX"],
-    "reponse" : "RTX"
+    "reponse" : 2
   },
   {
     "type": "QCM",
@@ -483,7 +483,7 @@
     "theme" : "Informatique",
     "question": "Le nombre d'adresse IPv4 dans le monde est de ?",
     "choix" : ["10 milliars", "5,7 milliards", "4,3 milliards"],
-    "reponse" : "4,3 milliards"
+    "reponse" : 3
   },
   {
     "type": "VRAI_FAUX",
@@ -533,7 +533,7 @@
     "theme" : "Divertissement",
     "question": "Quel est la plateforme la plus utilisée pour écouter de la musique ?",
     "choix" : ["Spotify", "Deezer", "Youtube"],
-    "reponse" : "Youtube"
+    "reponse" : 3
   },
   {
     "type": "QCM",
@@ -541,7 +541,7 @@
     "theme" : "Divertissement",
     "question": "Quelle est la série la plus visionnée dans le monde sur la plateforme Netflix, en ce moment ?\n",
     "choix" : ["Squid Game", "Arcane", "Vikings"],
-    "reponse" : "Arcane"
+    "reponse" : 2
   },
   {
     "type": "QCM",
@@ -549,7 +549,7 @@
     "theme" : "Divertissement",
     "question": "Quelle équipe Esport à gagner le tournoi CSGO Blast Premier Fall Final 2021 ?",
     "choix" : ["Vitality", "Navi", "WarnadoEsport"],
-    "reponse" : "Navi"
+    "reponse" : 2
   },
   {
     "type": "VRAI_FAUX",
@@ -599,7 +599,7 @@
     "theme" : "Mathématiques",
     "question": "Quand on été créer les Mathématiques ?",
     "choix" : ["VIème siècle avant JC", "500 ans avant JC", "IIème siècle avant JC"],
-    "reponse" : "VIème siècle avant JC"
+    "reponse" : 1
   },
   {
     "type": "QCM",
@@ -607,7 +607,7 @@
     "theme" : "Mathématiques",
     "question": "Dans quelle période est né Thalès ?",
     "choix" : ["Grèce nouvelle", "Grèce antique", "Renaissance"],
-    "reponse" : "Grèce antique"
+    "reponse" : 2
   },
   {
     "type": "QCM",
@@ -615,7 +615,7 @@
     "theme" : "Mathématiques",
     "question": "Pourquoi le philosophe Pythagore est-il connu ?",
     "choix" : ["Il a créer un algorythme", "Il a créer un théorême", "C'est un mec sympa sah"],
-    "reponse" : "Il a créer un théorême"
+    "reponse" : 1
   },
   {
     "type": "VRAI_FAUX",

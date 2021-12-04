@@ -5,7 +5,7 @@ public enum Difficulties {
 	MEDIUM,
 	HARD;
 
-	public Difficulties getDifficulty(int i) {
+	public static Difficulties getDifficulty(int i) {
 		return switch (i) {
 			case 2 -> (MEDIUM);
 			case 3 -> (HARD);
