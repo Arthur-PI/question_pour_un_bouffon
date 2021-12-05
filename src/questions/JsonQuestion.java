@@ -2,7 +2,7 @@ package questions;
 
 public class JsonQuestion {
 	private TypeQuestion type;
-	private Difficulties niveau;
+	private int niveau;
 	private String theme;
 	private String question;
 	private String[] choix;
@@ -12,7 +12,7 @@ public class JsonQuestion {
 		return type;
 	}
 
-	public Difficulties getNiveau () {
+	public int getNiveau () {
 		return niveau;
 	}
 

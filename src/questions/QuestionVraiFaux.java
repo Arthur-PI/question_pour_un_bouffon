@@ -5,9 +5,9 @@ public class QuestionVraiFaux extends Question {
 	private static final String FAUX = "faux";
 	private final boolean response;
 
-	public QuestionVraiFaux(String question, Difficulties difficulty, String theme, boolean response){
+	public QuestionVraiFaux(String question, Difficulties difficulty, String theme, String response){
 		super(question, difficulty, theme);
-		this.response = response;
+		this.response = response.equals(VRAI);
 	}
 
 	@Override

@@ -11,11 +11,5 @@ public class main {
 	public static void main (String[] args) {
 //		Phases p = new Phases();
 //		p.phase1();
-		Questions qs = new Questions();
-		try {
-			qs.loadQuestions();
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		}
 	}
 }

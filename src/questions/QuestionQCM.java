@@ -23,7 +23,7 @@ public class QuestionQCM extends Question {
 		s.append(super.toString());
 		for (int i=0; i < choices.length; i++) {
 			s.append('\n');
-			s.append(i);
+			s.append(i + 1);
 			s.append("- ");
 			s.append(choices[i]);
 		}
