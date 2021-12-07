@@ -34,14 +34,14 @@
     "type": "VRAI_FAUX",
     "niveau": 3,
     "theme" : "Sport",
-    "question": "L'Espagne a gagné les championats du monde du HandBall, Vrai ou Faux ?",
+    "question": "L'Espagne a gagné les championats du monde du HandBall ?",
     "reponse" : false
   },
   {
     "type": "VRAI_FAUX",
     "niveau": 3,
     "theme" : "Sport",
-    "question": "La marathon de paris a eu lieu en 2020, Vrai ou Faux ??",
+    "question": "Le marathon de paris a eu lieu en 2020 ?",
     "reponse" : false
   },
   {

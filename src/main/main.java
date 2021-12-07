@@ -1,15 +1,16 @@
 package main;
-import questions.Question;
+
+import questions.Difficulties;
 import questions.Questions;
-import questions.Themes;
-
-import java.io.FileNotFoundException;
-
-import static questions.TypeQuestion.*;
 
 public class main {
 	public static void main (String[] args) {
-//		Phases p = new Phases();
-//		p.phase1();
+		try {
+			Class.forName("questions.Questions");
+		} catch (ClassNotFoundException e) {
+			System.out.println("Error loading class Question !");
+		}
+		Questions qs = Questions.getInstance();
+		System.out.println(qs.getQuestion("Géographie", Difficulties.MEDIUM).getTheme());
 	}
 }

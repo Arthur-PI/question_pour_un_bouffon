@@ -14,15 +14,15 @@ public class Questions {
 
 	static {
 		instance = new Questions();
-		try {
-			instance.loadQuestions();
-		} catch (FileNotFoundException e) {
-			System.out.println("Error while loading questions !");
-		}
 	}
 
 	private Questions() {
 		questions = new ArrayList<>();
+		try {
+			this.loadQuestions();
+		} catch (FileNotFoundException e) {
+			System.out.println("Error while loading questions !");
+		}
 	}
 
 	public void addQuestion(Question q) {
@@ -33,14 +33,18 @@ public class Questions {
 		if (i > 0 && i < questions.size()) questions.remove(i);
 	}
 
-	
+	public static Questions getInstance() {
+		return instance;
+	}
 
 	private void loadQuestions() throws FileNotFoundException {
-		Gson gson = new Gson();
-		JsonReader reader = new JsonReader(new FileReader(QUESTIONS_FILE));
-		JsonQuestion[] json_questions = gson.fromJson(reader, JsonQuestion[].class);
-		int a = 0, b = 0, c = 0;
-		Question qstion;
+		Gson gson;
+		JsonReader reader;
+		JsonQuestion[] json_questions;
+
+		gson = new Gson();
+		reader = new JsonReader(new FileReader(QUESTIONS_FILE));
+		json_questions = gson.fromJson(reader, JsonQuestion[].class);
 		for (JsonQuestion q : json_questions) {
 			switch (q.getType()) {
 				case QCM -> this.addQuestion(new QuestionQCM(q.getQuestion(), Difficulties.getDifficulty(q.getNiveau()), q.getTheme(), Integer.parseInt(q.getReponse()), q.getChoix()));
@@ -57,7 +61,7 @@ public class Questions {
 		int n;
 		do {
 			q = questions.get(rand.nextInt(questions.size()));
-		} while (q.getDifficulty() == level && !q.getTheme().equals(theme));
+		} while (q.getDifficulty() == level || !q.getTheme().equals(theme));
 		return q;
 	}
 }
