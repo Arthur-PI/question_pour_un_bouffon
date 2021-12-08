@@ -39,11 +39,26 @@ public class Joueurs {
 		}
 	}
 
+	public int eliminateParticipant(){
+		int index = 0;
+		for (int i = 0; i < this.joueurs.length; i++) {
+			if(this.joueurs[i].getEtat() == SELECTIONNER){
+				for (int j = 0; j < this.joueurs.length; j++) {
+					if(this.joueurs[j].getEtat() == SELECTIONNER){
+						if(this.joueurs[i].getScore()>this.joueurs[j].getScore()) index = j;
+					}
+				}
+			}
+		}
+		return index;
+	}
+
+
 	@Override
 	public String toString(){
 		StringBuilder chaine = new StringBuilder();
 		for (int i = 0; i < this.joueurs.length; i++) {
-			if(this.joueurs[i].getEtat() == SELECTIONNER){
+			if(this.joueurs[i].getEtat() == SELECTIONNER || this.joueurs[i].getEtat() == ELIMINER){
 				chaine.append(this.joueurs[i].toString());
 			}
 		}

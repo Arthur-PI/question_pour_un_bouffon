@@ -47,6 +47,7 @@ public class Phases {
                     String r = randomAnswer(q.getClass().toString());
                     System.out.println("\nRéponse du joueur : " + r);
                     if(q.checkResponse(r)){
+                        this.game.getJoueurs()[j].incrementScore(2);
                         System.out.println(ANSI_GREEN + "BONNE REPONSE");
                     }else{
                         System.out.println(ANSI_RED + "MAUVAISE REPONSE");
@@ -54,6 +55,12 @@ public class Phases {
                 }
             }
         }
+        this.game.getJoueurs()[this.game.eliminateParticipant()].setEtat(Status.ELIMINER);
+        System.out.println("\n" + ANSI_RESET + this.game);
+    }
+
+    public void phase2(){
+
     }
 
     public String randomAnswer(String type){
