@@ -1,8 +1,7 @@
-package main;
+package jeu;
 
 import questions.*;
 
-import java.util.Objects;
 import java.util.Random;
 
 
@@ -25,7 +24,7 @@ public class Phases {
         this.alphabet = new String[]{"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"};
         this.game = new Joueurs();
         for (int i = 0; i < this.game.getJoueurs().length; i++) {
-            this.game.getJoueurs()[i] = new Joueur(100+10*i, alphabet[i], 0,Status.ATTENTE);
+            this.game.getJoueurs()[i] = new Joueur(100+10*i, alphabet[i], 0, Status.ATTENTE);
         }
         this.themes = new Themes();
     }
@@ -65,6 +64,7 @@ public class Phases {
         System.out.println(this.game);
         for (int j = 0; j < 3; j++) {
             Theme theme= themes.selectRandomThemes();
+            System.out.println(ANSI_CYAN + "\nLe thème selectionné est :"+theme.getNom());
             for (int i = 0; i < this.game.getJoueurs().length ; i++) {
                 if (this.game.getJoueurs()[i].getEtat() == Status.SELECTIONNER) {
                     System.out.println(ANSI_PURPLE +"\nQuestion pour le joueur numéro :" + this.game.getJoueurs()[i].getNumero() + "\n");
@@ -90,6 +90,7 @@ public class Phases {
         System.out.println(this.game);
         for (int i = 0; i < 3; i++) {
             Theme theme= themes.selectRandomThemes();
+            System.out.println(ANSI_CYAN + "\nLe thème selectionné est :"+theme.getNom());
             for (int j = 0; j < this.game.getJoueurs().length ; j++) {
                 if(this.game.getJoueurs()[j].getEtat() == Status.SELECTIONNER){
                     System.out.println(ANSI_PURPLE +"\nQuestion pour le joueur numéro :" + this.game.getJoueurs()[j].getNumero() + "\n");

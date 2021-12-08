@@ -1,12 +1,7 @@
 package main;
-import questions.Question;
-import questions.Questions;
-import questions.Themes;
+import jeu.Phases;
 
-
-import static questions.TypeQuestion.*;
-
-public class main {
+public class Main {
 	public static void main (String[] args) {
 		try {
 			Class.forName("questions.Questions");

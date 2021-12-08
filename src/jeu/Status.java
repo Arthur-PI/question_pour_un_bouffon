@@ -1,4 +1,4 @@
-package main;
+package jeu;
 
 public enum Status {
 	ATTENTE,

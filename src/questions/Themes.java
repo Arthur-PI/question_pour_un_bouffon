@@ -2,8 +2,6 @@ package questions;
 
 import java.util.ArrayList;
 
-import static main.Status.SELECTIONNER;
-
 public class Themes {
     private ArrayList<Theme> themes;
     private int nbThemes;

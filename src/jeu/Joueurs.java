@@ -1,6 +1,6 @@
-package main;
+package jeu;
 
-import static main.Status.*;
+import static jeu.Status.*;
 
 public class Joueurs {
 	private Joueur[] joueurs;
