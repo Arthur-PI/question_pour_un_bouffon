@@ -15,7 +15,7 @@ public class Themes {
         this.themes.add(new Theme("Géographie",false));
         this.themes.add(new Theme("Histoire",false));
         this.themes.add(new Theme("Cinématographie",false));
-        this.themes.add(new Theme("Science et nature",false));
+        this.themes.add(new Theme("Science et Nature",false));
         this.themes.add(new Theme("Musique",false));
         this.themes.add(new Theme("Animé",false));
         this.themes.add(new Theme("Informatique",false));

@@ -1,11 +1,12 @@
 package questions;
 
+import com.google.gson.Gson;
+import com.google.gson.stream.JsonReader;
+
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.Random;
-import com.google.gson.Gson;
-import com.google.gson.stream.JsonReader;
 
 public class Questions {
 	private static final String QUESTIONS_FILE = "questions.json";
@@ -61,7 +62,7 @@ public class Questions {
 		int n;
 		do {
 			q = questions.get(rand.nextInt(questions.size()));
-		} while (q.getDifficulty() == level || q.getTheme().equals(theme));
+		} while (q.getDifficulty() != level || !q.getTheme().equals(theme));
 		return q;
 	}
 

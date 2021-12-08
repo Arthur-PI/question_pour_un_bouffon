@@ -25,14 +25,14 @@
   },
   {
     "type": "VRAI_FAUX",
-    "niveau": 3,
+    "niveau": 1,
     "theme" : "Sport",
     "question": "La Serbie a gagné le match de qualfication à la coupe du monde contre le portugal en 2021, Vrai ou Faux ?",
     "reponse" : true
   },
   {
     "type": "VRAI_FAUX",
-    "niveau": 3,
+    "niveau": 2,
     "theme" : "Sport",
     "question": "L'Espagne a gagné les championats du monde du HandBall ?",
     "reponse" : false
@@ -46,14 +46,14 @@
   },
   {
     "type": "LIBRE",
-    "niveau": 3,
+    "niveau": 1,
     "theme" : "Sport",
     "question": "Quel est le nombre de participants au VendéeGlobe de l'édition 2020-2021 ?",
     "reponse" : "33"
   },
   {
     "type": "LIBRE",
-    "niveau": 3,
+    "niveau": 2,
     "theme" : "Sport",
     "question": "Combien de discipline ont été exercée au Jeux Olympique de 2021 ?",
     "reponse" : "33"
@@ -91,14 +91,14 @@
   },
   {
     "type": "VRAI_FAUX",
-    "niveau": 3,
+    "niveau": 1,
     "theme" : "Géographie",
     "question": "Les Etats-Unis contiennent 53 etats, Vrai ou Faux ?",
     "reponse" : false
   },
   {
     "type": "VRAI_FAUX",
-    "niveau": 3,
+    "niveau": 2,
     "theme" : "Géographie",
     "question": "Il y a 27 pays dans l'Union Européene, Vrai ou Faux ?",
     "reponse" : true
@@ -112,14 +112,14 @@
   },
   {
     "type": "LIBRE",
-    "niveau": 3,
+    "niveau": 1,
     "theme" : "Géographie",
     "question": "Quel est la plus grande fôret du monde ?",
     "reponse" : "Amazonie"
   },
   {
     "type": "LIBRE",
-    "niveau": 3,
+    "niveau": 2,
     "theme" : "Géographie",
     "question": "Quelle est le nom de la ville/village construit batit le plus haut du monde ?",
     "reponse" : "La Riconoda"
@@ -157,14 +157,14 @@
   },
   {
     "type": "VRAI_FAUX",
-    "niveau": 3,
+    "niveau": 1,
     "theme" : "Histoire",
     "question": "L'union Européene a été fondé en 1993, Vrai ou Faux ?",
     "reponse" : true
   },
   {
     "type": "VRAI_FAUX",
-    "niveau": 3,
+    "niveau": 2,
     "theme" : "Histoire",
     "question": "La bataille de Verdun a débuté en 1916, Vrai ou Faux ?",
     "reponse" : true
@@ -178,14 +178,14 @@
   },
   {
     "type": "LIBRE",
-    "niveau": 3,
+    "niveau": 1,
     "theme" : "Histoire",
     "question": "Quand la machine à vapeur a-t-elle été crée ?",
     "reponse" : "1712"
   },
   {
     "type": "LIBRE",
-    "niveau": 3,
+    "niveau": 2,
     "theme" : "Histoire",
     "question": "Quelle est la date approximative de la découverte du café ?",
     "reponse" : "850"
@@ -223,14 +223,14 @@
   },
   {
     "type": "VRAI_FAUX",
-    "niveau": 3,
+    "niveau": 1,
     "theme" : "Cinématographie",
     "question": "L'acteur Léonaro Di Caprio a déjà joué dans la série The Walking Dead, Vrai ou Faux ?",
     "reponse" : false
   },
   {
     "type": "VRAI_FAUX",
-    "niveau": 3,
+    "niveau": 2,
     "theme" : "Cinématographie",
     "question": "Le premier film au monde a été projeté à Lyon, Vrai ou Faux ?",
     "reponse" : true
@@ -244,14 +244,14 @@
   },
   {
     "type": "LIBRE",
-    "niveau": 3,
+    "niveau": 1,
     "theme" : "Cinématographie",
     "question": "Quel est l'acteur dont la réplique connue en français est 'Je reviendrai' ?",
     "reponse" : "Arnold Schwarzenegger"
   },
   {
     "type": "LIBRE",
-    "niveau": 3,
+    "niveau": 2,
     "theme" : "Cinématographie",
     "question": "Quelle est la première série française ?",
     "reponse" : "Agence Nostradamus"
@@ -289,14 +289,14 @@
   },
   {
     "type": "VRAI_FAUX",
-    "niveau": 3,
+    "niveau": 1,
     "theme" : "Science et Nature",
     "question": "Pluton est une planète naine, Vrai ou Faux ?",
     "reponse" : true
   },
   {
     "type": "VRAI_FAUX",
-    "niveau": 3,
+    "niveau": 2,
     "theme" : "Science et Nature",
     "question": "L'ailliage or-platine est le métal le plus solide ?",
     "reponse" : true
@@ -310,14 +310,14 @@
   },
   {
     "type": "LIBRE",
-    "niveau": 3,
+    "niveau": 1,
     "theme" : "Science et Nature",
     "question": "Le nom de notre galaxie ?",
     "reponse" : "La voie lactée"
   },
   {
     "type": "LIBRE",
-    "niveau": 3,
+    "niveau": 2,
     "theme" : "Science et Nature",
     "question": "Le nombre de dents minimum que possèdent les requins ?",
     "reponse" : "190"
@@ -355,14 +355,14 @@
   },
   {
     "type": "VRAI_FAUX",
-    "niveau": 3,
+    "niveau": 1,
     "theme" : "Musique",
     "question": "Le rapeur Niska a dit dans un de ses sons : \"tu sers à rien comme un brocoli\", Vrai ou Faux ?",
     "reponse" : true
   },
   {
     "type": "VRAI_FAUX",
-    "niveau": 3,
+    "niveau": 2,
     "theme" : "Musique",
     "question": "Le chanteur Colonel Reyel a réalisé un concert avec une entrée à 2 euros, vrai ou Faux ?",
     "reponse" : true
@@ -376,14 +376,14 @@
   },
   {
     "type": "LIBRE",
-    "niveau": 3,
+    "niveau": 1,
     "theme" : "Musique",
     "question": "Le nom du rapeur qui a dit \"Frère si je sors la AK je sais qu'ils feront tous caca\" ?",
     "reponse" : "Lacrim"
   },
   {
     "type": "LIBRE",
-    "niveau": 3,
+    "niveau": 2,
     "theme" : "Musique",
     "question": "Le nom du rapeur qui a fait une collaboration avec le rapeur Niska sur le son \"Blue Magic\" ?",
     "reponse" : "Maes"
@@ -407,7 +407,7 @@
     "type": "QCM",
     "niveau": 2,
     "theme" : "Animé",
-    "question": "Quel est le style d'animé le plus connu ?\n1) Shonen (Vrai)",
+    "question": "Quel est le style d'animé le plus connu ?",
     "choix" : ["Shonen", "Ecchi", "Slice of Life"],
     "reponse" : 1
   },
@@ -421,14 +421,14 @@
   },
   {
     "type": "VRAI_FAUX",
-    "niveau": 3,
+    "niveau": 1,
     "theme" : "Animé",
     "question": "Eiichiro Oda est l'auteur de Prison School, vrai ou faux ?",
     "reponse" : false
   },
   {
     "type": "VRAI_FAUX",
-    "niveau": 3,
+    "niveau": 2,
     "theme" : "Animé",
     "question": "Les personnages principaux de Dragon Ball viennent de l'univers 7, vrai ou faux ?",
     "reponse" : true
@@ -442,14 +442,14 @@
   },
   {
     "type": "LIBRE",
-    "niveau": 3,
+    "niveau": 1,
     "theme" : "Animé",
     "question": "Le nom du titan de Eren Jäger dans L'attaque des titans ?",
     "reponse" : "Le Titan Primordial"
   },
   {
     "type": "LIBRE",
-    "niveau": 3,
+    "niveau": 2,
     "theme" : "Animé",
     "question": "Le nom du rapeur qui a fait une collaboration avec le rapeur Niska sur le son \"Blue Magic\" ?",
     "reponse" : "Black Clover"
@@ -487,14 +487,14 @@
   },
   {
     "type": "VRAI_FAUX",
-    "niveau": 3,
+    "niveau": 1,
     "theme" : "Informatique",
     "question": "Le modèle OSI concerne la gestion de la mémoire vive dans un ordianteur, vrai ou faux ?",
     "reponse" : false
   },
   {
     "type": "VRAI_FAUX",
-    "niveau": 3,
+    "niveau": 2,
     "theme" : "Informatique",
     "question": "Les catégories les plus récente de mémoires vives sont les DDR5, vrai ou faux ?",
     "reponse" : true
@@ -508,14 +508,14 @@
   },
   {
     "type": "LIBRE",
-    "niveau": 3,
+    "niveau": 1,
     "theme" : "Informatique",
     "question": "Qu'appelle-t-on le Co-processeur ?",
     "reponse" : "La Carte Graphique"
   },
   {
     "type": "LIBRE",
-    "niveau": 3,
+    "niveau": 2,
     "theme" : "Informatique",
     "question": "Quelle language de programmation a été utilisé pour développer Minecraft ?",
     "reponse" : "Java"
@@ -553,14 +553,14 @@
   },
   {
     "type": "VRAI_FAUX",
-    "niveau": 3,
+    "niveau": 1,
     "theme" : "Divertissement",
     "question": "Les elytras sont l'une des meilleurs invention du jeu Minecraft, vrai ou faux ?",
     "reponse" : true
   },
   {
     "type": "VRAI_FAUX",
-    "niveau": 3,
+    "niveau": 2,
     "theme" : "Divertissement",
     "question": "Le Zevent 2021 à rapporté environ 10 millions d'euros, vrai ou faux ?",
     "reponse" : true
@@ -574,14 +574,14 @@
   },
   {
     "type": "LIBRE",
-    "niveau": 3,
+    "niveau": 1,
     "theme" : "Divertissement",
     "question": "Le nom du dernier album de Maes ?",
     "reponse" : "Réel Vie 3.0"
   },
   {
     "type": "LIBRE",
-    "niveau": 3,
+    "niveau": 2,
     "theme" : "Divertissement",
     "question": "Comment s'appelle les personnes qui répondent \"réel mais reste digne\" dans les commantaires Twitter ?",
     "reponse" : "Pessi"
@@ -619,14 +619,14 @@
   },
   {
     "type": "VRAI_FAUX",
-    "niveau": 3,
+    "niveau": 1,
     "theme" : "Mathématiques",
     "question": "1 + 1 = 2, vrai ou faux ?",
     "reponse" : true
   },
   {
     "type": "VRAI_FAUX",
-    "niveau": 3,
+    "niveau": 2,
     "theme" : "Mathématiques",
     "question": "On étudie les mathématiques dès l'école primaire, vrai ou faux ?",
     "reponse" : true
@@ -640,14 +640,14 @@
   },
   {
     "type": "LIBRE",
-    "niveau": 3,
+    "niveau": 1,
     "theme" : "Mathématiques",
     "question": "Quelle est la probabilitée d'obtenir deux fois de suite la même face lors d'un lancé de dé ?",
     "reponse" : "0.375 ou 6/16"
   },
   {
     "type": "LIBRE",
-    "niveau": 3,
+    "niveau": 2,
     "theme" : "Mathématiques",
     "question": "Quel théorême doit-on utiliser lorsque l'on souhaite calculer la taille d'un côté d'un triangle rectangle ?",
     "reponse" : "Théorême de Pythagore"

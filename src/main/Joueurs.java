@@ -45,7 +45,7 @@ public class Joueurs {
 			if(this.joueurs[i].getEtat() == SELECTIONNER){
 				for (int j = 0; j < this.joueurs.length; j++) {
 					if(this.joueurs[j].getEtat() == SELECTIONNER){
-						if(this.joueurs[i].getScore() > this.joueurs[j].getScore()) index = j;
+						if(this.joueurs[i].getScore() < this.joueurs[j].getScore()) index = i;
 					}
 				}
 			}

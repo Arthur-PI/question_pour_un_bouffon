@@ -3,6 +3,7 @@ package main;
 import questions.*;
 
 import java.util.Objects;
+import java.util.Random;
 
 
 public class Phases {
@@ -30,8 +31,8 @@ public class Phases {
     }
 
     public void phase1() {
-        System.out.println("\n _____________________________ \n Début de la phase 1 ... \n _____________________________ \n");
         this.game.generateParticipants();
+        System.out.println("\n _____________________________ \n Début de la phase 1 ... \n _____________________________ \n");
         System.out.println(this.game);
         // début de la phase en déroulant chaque thèmes
         for (int i = 1; i < 11; i++) {
@@ -44,7 +45,7 @@ public class Phases {
                     System.out.println(ANSI_PURPLE +"\nQuestion pour le joueur numéro :" + this.game.getJoueurs()[j].getNumero() + "\n");
                     Question q = Questions.getInstance().getQuestion(theme.getNom(), Difficulties.EASY );
                     System.out.println(ANSI_WHITE +q.getTheme() + ANSI_RESET + " -> " + q);
-                    String r = randomAnswer(q.getClass().toString());
+                    String r = randomAnswer(q);
                     System.out.println("\nRéponse du joueur : " + r);
                     if(q.checkResponse(r)){
                         this.game.getJoueurs()[j].incrementScore(2);
@@ -60,16 +61,16 @@ public class Phases {
     }
 
     public void phase2(){
-        System.out.println("\n _____________________________ \n Début de la phase 2 ... \n _____________________________ \n");
+        System.out.println("\n _____________________________ \n\n Début de la phase 2 ... \n _____________________________ \n");
         System.out.println(this.game);
-        for (int i = 0; i < this.game.getJoueurs().length ; i++) {
-            if (this.game.getJoueurs()[i].getEtat() == Status.SELECTIONNER) {
-                for (int j = 0; j < 2; j++) {
-                    Theme theme= themes.selectRandomThemes();
+        for (int j = 0; j < 3; j++) {
+            Theme theme= themes.selectRandomThemes();
+            for (int i = 0; i < this.game.getJoueurs().length ; i++) {
+                if (this.game.getJoueurs()[i].getEtat() == Status.SELECTIONNER) {
                     System.out.println(ANSI_PURPLE +"\nQuestion pour le joueur numéro :" + this.game.getJoueurs()[i].getNumero() + "\n");
                     Question q = Questions.getInstance().getQuestion(theme.getNom(), Difficulties.MEDIUM );
                     System.out.println(ANSI_WHITE +q.getTheme() + ANSI_RESET + " -> " + q);
-                    String r = randomAnswer(q.getClass().toString());
+                    String r = randomAnswer(q);
                     System.out.println("\nRéponse du joueur : " + r);
                     if(q.checkResponse(r)){
                         this.game.getJoueurs()[i].incrementScore(3);
@@ -94,7 +95,7 @@ public class Phases {
                     System.out.println(ANSI_PURPLE +"\nQuestion pour le joueur numéro :" + this.game.getJoueurs()[j].getNumero() + "\n");
                     Question q = Questions.getInstance().getQuestion(theme.getNom(), Difficulties.HARD );
                     System.out.println(ANSI_WHITE +q.getTheme() + ANSI_RESET + " -> " + q);
-                    String r = randomAnswer(q.getClass().toString());
+                    String r = randomAnswer(q);
                     System.out.println("\nRéponse du joueur : " + r);
                     if(q.checkResponse(r)){
                         this.game.getJoueurs()[j].incrementScore(5);
@@ -110,18 +111,25 @@ public class Phases {
         System.out.println("\n" + ANSI_RESET + this.game);
     }
 
-    public String randomAnswer(String type){
-        if(Objects.equals(type, "class questions.QuestionVraiFaux")) {
-            return "faux";
+    public String randomAnswer(Question q){
+        Random rand = new Random();
+        if(q instanceof QuestionVraiFaux) {
+            return rand.nextBoolean() ? "vrai" : "faux";
         }
-        else if(Objects.equals(type, "class questions.QuestionQCM")) {
-            return "2";
+        else if(q instanceof QuestionQCM) {
+            return (rand.nextInt(3)+1)+"";
         }
-        else if(Objects.equals(type, "class questions.QuestionLibre")) {
-            return "test";
+        else if(q instanceof QuestionLibre) {
+            /*
+            java.util.Scanner entree =   new java.util.Scanner(System.in);
+            System.out.println("Réponse");
+            String result = entree.nextLine();
+            return result;
+             */
+            return "false";
         }
         else{
-            return "false";
+            return "Erreur génération réponse";
         }
     }
 }
