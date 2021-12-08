@@ -2,6 +2,8 @@ package main;
 
 import questions.*;
 
+import java.util.Objects;
+
 
 public class Phases {
     public static final String ANSI_RESET = "\u001B[0m";
@@ -39,12 +41,33 @@ public class Phases {
             // pour chaque joueur participant on génère une questions au hasard dans le thème
             for (int j = 0; j < this.game.getJoueurs().length ; j++) {
                 if(this.game.getJoueurs()[j].getEtat() == Status.SELECTIONNER){
-                    System.out.println(ANSI_RED +"\nQuestion pour le joueur numéro :" + this.game.getJoueurs()[j].getNumero() + "\n");
+                    System.out.println(ANSI_PURPLE +"\nQuestion pour le joueur numéro :" + this.game.getJoueurs()[j].getNumero() + "\n");
                     Question q = Questions.getInstance().getQuestion(theme.getNom(), Difficulties.EASY );
                     System.out.println(ANSI_RESET +q);
-                    System.out.println(q.getClass());
+                    String r = randomAnswer(q.getClass().toString());
+                    System.out.println("\nRéponse du joueur : " + r);
+                    if(q.checkResponse(r)){
+                        System.out.println(ANSI_GREEN + "BONNE REPONSE");
+                    }else{
+                        System.out.println(ANSI_RED + "MAUVAISE REPONSE");
+                    }
                 }
             }
+        }
+    }
+
+    public String randomAnswer(String type){
+        if(Objects.equals(type, "class questions.QuestionVraiFaux")) {
+            return "faux";
+        }
+        else if(Objects.equals(type, "class questions.QuestionQCM")) {
+            return "2";
+        }
+        else if(Objects.equals(type, "class questions.QuestionLibre")) {
+            return "test";
+        }
+        else{
+            return "false";
         }
     }
 }
