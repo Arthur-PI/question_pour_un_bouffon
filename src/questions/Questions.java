@@ -61,7 +61,8 @@ public class Questions {
 		int n;
 		do {
 			q = questions.get(rand.nextInt(questions.size()));
-		} while (q.getDifficulty() == level || !q.getTheme().equals(theme));
+		} while (q.getDifficulty() == level || q.getTheme().equals(theme));
 		return q;
 	}
+
 }

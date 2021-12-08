@@ -14,13 +14,13 @@ public class Themes {
         this.themes.add(new Theme("Sport",false));
         this.themes.add(new Theme("Géographie",false));
         this.themes.add(new Theme("Histoire",false));
-        this.themes.add(new Theme("Cinéma",false));
+        this.themes.add(new Theme("Cinématographie",false));
         this.themes.add(new Theme("Science et nature",false));
         this.themes.add(new Theme("Musique",false));
-        this.themes.add(new Theme("Anime",false));
+        this.themes.add(new Theme("Animé",false));
         this.themes.add(new Theme("Informatique",false));
         this.themes.add(new Theme("Divertissement",false));
-        this.themes.add(new Theme("Maths",false));
+        this.themes.add(new Theme("Mathématiques",false));
     }
 
     public int indexOf(String theme){

@@ -35,7 +35,7 @@ public class Joueurs {
 				} else {
 					j1 = selectJoueur();
 				}
-			}while (j1.getEtat() == SELECTIONNER);
+			}while (j1.getEtat() != SELECTIONNER);
 		}
 	}
 
