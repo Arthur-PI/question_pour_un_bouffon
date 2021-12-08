@@ -45,9 +45,19 @@ public class Joueurs {
 			if(this.joueurs[i].getEtat() == SELECTIONNER){
 				for (int j = 0; j < this.joueurs.length; j++) {
 					if(this.joueurs[j].getEtat() == SELECTIONNER){
-						if(this.joueurs[i].getScore()>this.joueurs[j].getScore()) index = j;
+						if(this.joueurs[i].getScore() > this.joueurs[j].getScore()) index = j;
 					}
 				}
+			}
+		}
+		return index;
+	}
+
+	public int winner(){
+		int index = 0;
+		for (int i = 0; i < this.joueurs.length; i++) {
+			if(this.joueurs[i].getEtat() == SELECTIONNER) {
+				if (this.joueurs[i].getScore() > this.joueurs[i+1].getScore()) index = i;
 			}
 		}
 		return index;
@@ -58,7 +68,7 @@ public class Joueurs {
 	public String toString(){
 		StringBuilder chaine = new StringBuilder();
 		for (int i = 0; i < this.joueurs.length; i++) {
-			if(this.joueurs[i].getEtat() == SELECTIONNER || this.joueurs[i].getEtat() == ELIMINER){
+			if(this.joueurs[i].getEtat() != ATTENTE){
 				chaine.append(this.joueurs[i].toString());
 			}
 		}

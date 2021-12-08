@@ -11,5 +11,7 @@ public class main {
 	public static void main (String[] args) {
 		Phases p = new Phases();
 		p.phase1();
+		p.phase2();
+		p.phase3();
 	}
 }
