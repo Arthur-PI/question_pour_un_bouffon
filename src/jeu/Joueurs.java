@@ -36,16 +36,14 @@ public class Joueurs {
 	}
 
 	public void generateParticipants(){
+		Joueur j;
 		for (int i = 0; i < 4; i++) {
-			Joueur j1 = selectJoueur();
 			do {
-				if (j1 != null && j1.getEtat() == ATTENTE){
-					j1.setEtat(SELECTIONNER);
-				} else {
-					j1 = selectJoueur();
-				}
-			}while (j1.getEtat() != SELECTIONNER);
+				j = selectJoueur();
+			} while (j.getEtat() != ATTENTE);
+			j.setEtat(SELECTIONNER);
 		}
+
 	}
 
 	public void resetScores() {

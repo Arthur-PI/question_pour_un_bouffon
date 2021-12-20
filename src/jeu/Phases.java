@@ -27,14 +27,14 @@ public class Phases {
         System.out.println("Saisie des participants (de 4 a 20 joueurs):");
         for (int i=0; i < Joueurs.JOUEURS_MAX; i++) {
             System.out.println("Nom du joueur " + (i + 1) + " ('stop' pour arreter):");
-            pseudo = getUserInput();
-            if (pseudo.trim().equalsIgnoreCase("stop"))
-                if (i > 3)
-                    break;
+            pseudo = getUserInput().trim();
+            if (pseudo.equalsIgnoreCase("stop")) {
+                if (i > 3) break;
                 else {
                     i--;
                     continue;
                 }
+            }
             this.game.addJoueur(new Joueur(i + 1, pseudo));
         }
     }
@@ -52,7 +52,8 @@ public class Phases {
             // pour chaque joueur participant on génère une questions au hasard dans le thème
             for (Joueur joueur : joueurs) {
                 if (joueur.getEtat() == Status.SELECTIONNER) {
-                    System.out.println(ANSI_PURPLE + "\nQuestion pour le joueur numéro: " + joueur.getNumero() + "\n");
+                    System.out.println(ANSI_PURPLE + "\nQuestion pour le joueur: " + joueur.getNom() + " (" + joueur.getNumero() + ")\n");
+
                     Question q = Questions.getInstance().getQuestion(theme.getNom(), Difficulties.EASY);
                     System.out.println(ANSI_WHITE + q.getTheme() + ANSI_RESET + " -> " + q);
                     String r = getUserInput();
@@ -80,7 +81,7 @@ public class Phases {
             System.out.println(ANSI_CYAN + "\nLe thème selectionné est: " + theme.getNom());
             for (Joueur joueur : joueurs) {
                 if (joueur.getEtat() == Status.SELECTIONNER) {
-                    System.out.println(ANSI_PURPLE + "\nQuestion pour le joueur numéro: " + joueur.getNumero() + "\n");
+                    System.out.println(ANSI_PURPLE + "\nQuestion pour le joueur: " + joueur.getNom() + " (" + joueur.getNumero() + ")\n");
                     Question q = Questions.getInstance().getQuestion(theme.getNom(), Difficulties.MEDIUM);
                     System.out.println(ANSI_WHITE + q.getTheme() + ANSI_RESET + " -> " + q);
                     String r = getUserInput();
@@ -108,7 +109,7 @@ public class Phases {
             System.out.println(ANSI_CYAN + "\nLe thème selectionné est: " + theme.getNom());
             for (Joueur joueur : joueurs) {
                 if (joueur.getEtat() == Status.SELECTIONNER) {
-                    System.out.println(ANSI_PURPLE + "\nQuestion pour le joueur numéro: " + joueur.getNumero() + "\n");
+                    System.out.println(ANSI_PURPLE + "\nQuestion pour le joueur: " + joueur.getNom() + " (" + joueur.getNumero() + ")\n");
                     Question q = Questions.getInstance().getQuestion(theme.getNom(), Difficulties.HARD);
                     System.out.println(ANSI_WHITE + q.getTheme() + ANSI_RESET + " -> " + q);
                     String r = getUserInput();
