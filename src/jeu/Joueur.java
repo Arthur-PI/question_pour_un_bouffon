@@ -38,12 +38,17 @@ public class Joueur {
 		this.etat = etat;
 	}
 
-	Joueur (int numero, String nom, int score, Status etat){
+	public Joueur (int numero, String nom, int score, Status etat){
 		this.numero = numero;
 		this.nom = nom;
 		this.score = score;
 		this.etat = etat;
 	}
+
+	public Joueur(int numero, String nom) {
+		this(numero, nom, 0, Status.ATTENTE);
+	}
+
 
 	public void Saisie(int numero, String nom, int score, Status etat){
 		setNumero(numero);

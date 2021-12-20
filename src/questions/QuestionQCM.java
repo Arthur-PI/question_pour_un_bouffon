@@ -14,7 +14,11 @@ public class QuestionQCM extends Question {
 
 	@Override
 	public boolean checkResponse(String response) {
-		return Integer.parseInt(response) == this.response;
+		try {
+			return Integer.parseInt(response) == this.response;
+		} catch (NumberFormatException e) {
+			return false;
+		}
 	}
 
 	@Override

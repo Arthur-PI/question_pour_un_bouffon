@@ -1,20 +1,25 @@
 package jeu;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import static jeu.Status.*;
 
 public class Joueurs {
-	private Joueur[] joueurs;
+	public static final int JOUEURS_MAX = 20;
+	private List<Joueur> joueurs;
 
-	public Joueur[] getJoueurs () {
+
+	public List<Joueur> getJoueurs () {
 		return joueurs;
 	}
 
-	public void setJoueurs (Joueur[] joueurs) {
+	public void setJoueurs (List<Joueur> joueurs) {
 		this.joueurs = joueurs;
 	}
 
-	Joueurs (){
-		this.joueurs = new Joueur[20];
+	public Joueurs (){
+		this.joueurs = new ArrayList<>();
 	}
 
 	public static int getRandomDoubleBetweenRange(int min, int max){
@@ -22,8 +27,12 @@ public class Joueurs {
 		return (int) Math.round(x);
 	}
 
+	public void addJoueur(Joueur j) {
+		joueurs.add(j);
+	}
+
 	public Joueur selectJoueur() {
-		return this.joueurs[getRandomDoubleBetweenRange(0, 19)];
+		return joueurs.get(getRandomDoubleBetweenRange(0, joueurs.size() - 1));
 	}
 
 	public void generateParticipants(){
@@ -39,37 +48,36 @@ public class Joueurs {
 		}
 	}
 
+	public void resetScores() {
+		for (Joueur j : joueurs)
+			j.setScore(0);
+	}
+
 	public int eliminateParticipant(){
-		int index = 0;
-		for (int i = 0; i < this.joueurs.length; i++) {
-			if(this.joueurs[i].getEtat() == SELECTIONNER){
-				for (int j = 0; j < this.joueurs.length; j++) {
-					if(this.joueurs[j].getEtat() == SELECTIONNER){
-						if(this.joueurs[i].getScore() < this.joueurs[j].getScore()) index = i;
-					}
-				}
-			}
+		int index = -1;
+		for (int i=0; i < joueurs.size(); i++) {
+			if (joueurs.get(i).getEtat() == SELECTIONNER && (index == -1 || joueurs.get(i).getScore() < joueurs.get(index).getScore()))
+				index = i;
 		}
 		return index;
 	}
 
 	public int winner(){
-		int index = 0;
-		for (int i = 0; i < this.joueurs.length; i++) {
-			if(this.joueurs[i].getEtat() == SELECTIONNER) {
-				if (this.joueurs[i].getScore() > this.joueurs[i+1].getScore()) index = i;
-			}
+		int index = -1;
+		for (int i=0; i < joueurs.size(); i++) {
+			if (joueurs.get(i).getEtat() == SELECTIONNER && (index == -1 || joueurs.get(i).getScore() > joueurs.get(index).getScore()))
+				index = i;
 		}
 		return index;
 	}
 
 
 	@Override
-	public String toString(){
+	public String toString() {
 		StringBuilder chaine = new StringBuilder();
-		for (int i = 0; i < this.joueurs.length; i++) {
-			if(this.joueurs[i].getEtat() != ATTENTE){
-				chaine.append(this.joueurs[i].toString());
+		for (Joueur joueur : joueurs) {
+			if (joueur.getEtat() != ATTENTE) {
+				chaine.append(joueur);
 			}
 		}
 		return chaine.toString();

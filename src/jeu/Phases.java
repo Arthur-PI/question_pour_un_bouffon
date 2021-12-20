@@ -2,7 +2,8 @@ package jeu;
 
 import questions.*;
 
-import java.util.Random;
+import java.util.List;
+import java.util.Scanner;
 
 
 public class Phases {
@@ -16,121 +17,119 @@ public class Phases {
     public static final String ANSI_CYAN = "\u001B[36m";
     public static final String ANSI_WHITE = "\u001B[37m";
 
-    private String alphabet[];
-    private Joueurs game;
-    private Themes themes;
+    private final Joueurs game;
+    private final Themes themes;
 
     public Phases() {
-        this.alphabet = new String[]{"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"};
         this.game = new Joueurs();
-        for (int i = 0; i < this.game.getJoueurs().length; i++) {
-            this.game.getJoueurs()[i] = new Joueur(100+10*i, alphabet[i], 0, Status.ATTENTE);
-        }
         this.themes = new Themes();
+        String pseudo;
+        System.out.println("Saisie des participants (de 4 a 20 joueurs):");
+        for (int i=0; i < Joueurs.JOUEURS_MAX; i++) {
+            System.out.println("Nom du joueur " + (i + 1) + " ('stop' pour arreter):");
+            pseudo = getUserInput();
+            if (pseudo.trim().equalsIgnoreCase("stop"))
+                if (i > 3)
+                    break;
+                else {
+                    i--;
+                    continue;
+                }
+            this.game.addJoueur(new Joueur(i + 1, pseudo));
+        }
     }
 
     public void phase1() {
-        this.game.generateParticipants();
+        game.generateParticipants();
         System.out.println("\n _____________________________ \n Début de la phase 1 ... \n _____________________________ \n");
-        System.out.println(this.game);
+        System.out.println(game);
+        List<Joueur> joueurs = game.getJoueurs();
         // début de la phase en déroulant chaque thèmes
         for (int i = 1; i < 11; i++) {
             //sélection d'un thème au hasard
             Theme theme= themes.selectRandomThemes();
-            System.out.println(ANSI_CYAN + "\nQuestions numéro : "+i+"\nLe thème selectionné est :"+theme.getNom());
+            System.out.println(ANSI_CYAN + "\nQuestions numéro : " + i + "\nLe thème selectionné est: " + theme.getNom());
             // pour chaque joueur participant on génère une questions au hasard dans le thème
-            for (int j = 0; j < this.game.getJoueurs().length ; j++) {
-                if(this.game.getJoueurs()[j].getEtat() == Status.SELECTIONNER){
-                    System.out.println(ANSI_PURPLE +"\nQuestion pour le joueur numéro :" + this.game.getJoueurs()[j].getNumero() + "\n");
-                    Question q = Questions.getInstance().getQuestion(theme.getNom(), Difficulties.EASY );
-                    System.out.println(ANSI_WHITE +q.getTheme() + ANSI_RESET + " -> " + q);
-                    String r = randomAnswer(q);
-                    System.out.println("\nRéponse du joueur : " + r);
-                    if(q.checkResponse(r)){
-                        this.game.getJoueurs()[j].incrementScore(2);
+            for (Joueur joueur : joueurs) {
+                if (joueur.getEtat() == Status.SELECTIONNER) {
+                    System.out.println(ANSI_PURPLE + "\nQuestion pour le joueur numéro: " + joueur.getNumero() + "\n");
+                    Question q = Questions.getInstance().getQuestion(theme.getNom(), Difficulties.EASY);
+                    System.out.println(ANSI_WHITE + q.getTheme() + ANSI_RESET + " -> " + q);
+                    String r = getUserInput();
+                    System.out.println("\nRéponse du joueur: " + r);
+                    if (q.checkResponse(r)) {
+                        joueur.incrementScore(2);
                         System.out.println(ANSI_GREEN + "BONNE REPONSE");
-                    }else{
+                    } else {
                         System.out.println(ANSI_RED + "MAUVAISE REPONSE");
                     }
                 }
             }
         }
-        this.game.getJoueurs()[this.game.eliminateParticipant()].setEtat(Status.ELIMINER);
-        System.out.println("\n" + ANSI_RESET + this.game);
+        joueurs.get(game.eliminateParticipant()).setEtat(Status.ELIMINER);
+        System.out.println("\n" + ANSI_RESET + game);
     }
 
-    public void phase2(){
+    public void phase2() {
         System.out.println("\n _____________________________ \n\n Début de la phase 2 ... \n _____________________________ \n");
+        game.resetScores();
         System.out.println(this.game);
+        List<Joueur> joueurs = game.getJoueurs();
         for (int j = 0; j < 3; j++) {
             Theme theme= themes.selectRandomThemes();
-            System.out.println(ANSI_CYAN + "\nLe thème selectionné est :"+theme.getNom());
-            for (int i = 0; i < this.game.getJoueurs().length ; i++) {
-                if (this.game.getJoueurs()[i].getEtat() == Status.SELECTIONNER) {
-                    System.out.println(ANSI_PURPLE +"\nQuestion pour le joueur numéro :" + this.game.getJoueurs()[i].getNumero() + "\n");
-                    Question q = Questions.getInstance().getQuestion(theme.getNom(), Difficulties.MEDIUM );
-                    System.out.println(ANSI_WHITE +q.getTheme() + ANSI_RESET + " -> " + q);
-                    String r = randomAnswer(q);
-                    System.out.println("\nRéponse du joueur : " + r);
-                    if(q.checkResponse(r)){
-                        this.game.getJoueurs()[i].incrementScore(3);
+            System.out.println(ANSI_CYAN + "\nLe thème selectionné est: " + theme.getNom());
+            for (Joueur joueur : joueurs) {
+                if (joueur.getEtat() == Status.SELECTIONNER) {
+                    System.out.println(ANSI_PURPLE + "\nQuestion pour le joueur numéro: " + joueur.getNumero() + "\n");
+                    Question q = Questions.getInstance().getQuestion(theme.getNom(), Difficulties.MEDIUM);
+                    System.out.println(ANSI_WHITE + q.getTheme() + ANSI_RESET + " -> " + q);
+                    String r = getUserInput();
+                    System.out.println("\nRéponse du joueur: " + r);
+                    if (q.checkResponse(r)) {
+                        joueur.incrementScore(3);
                         System.out.println(ANSI_GREEN + "BONNE REPONSE");
-                    }else{
+                    } else {
                         System.out.println(ANSI_RED + "MAUVAISE REPONSE");
                     }
                 }
             }
         }
-        this.game.getJoueurs()[this.game.eliminateParticipant()].setEtat(Status.ELIMINER);
-        System.out.println("\n" + ANSI_RESET + this.game);
+        joueurs.get(game.eliminateParticipant()).setEtat(Status.ELIMINER);
+        System.out.println("\n" + ANSI_RESET + game);
     }
 
-    public void phase3(){
+    public void phase3() {
         System.out.println("\n _____________________________ \n Début de la phase 3 ... \n _____________________________ \n");
+        game.resetScores();
         System.out.println(this.game);
+        List<Joueur> joueurs = game.getJoueurs();
         for (int i = 0; i < 3; i++) {
             Theme theme= themes.selectRandomThemes();
-            System.out.println(ANSI_CYAN + "\nLe thème selectionné est :"+theme.getNom());
-            for (int j = 0; j < this.game.getJoueurs().length ; j++) {
-                if(this.game.getJoueurs()[j].getEtat() == Status.SELECTIONNER){
-                    System.out.println(ANSI_PURPLE +"\nQuestion pour le joueur numéro :" + this.game.getJoueurs()[j].getNumero() + "\n");
-                    Question q = Questions.getInstance().getQuestion(theme.getNom(), Difficulties.HARD );
-                    System.out.println(ANSI_WHITE +q.getTheme() + ANSI_RESET + " -> " + q);
-                    String r = randomAnswer(q);
-                    System.out.println("\nRéponse du joueur : " + r);
-                    if(q.checkResponse(r)){
-                        this.game.getJoueurs()[j].incrementScore(5);
+            System.out.println(ANSI_CYAN + "\nLe thème selectionné est: " + theme.getNom());
+            for (Joueur joueur : joueurs) {
+                if (joueur.getEtat() == Status.SELECTIONNER) {
+                    System.out.println(ANSI_PURPLE + "\nQuestion pour le joueur numéro: " + joueur.getNumero() + "\n");
+                    Question q = Questions.getInstance().getQuestion(theme.getNom(), Difficulties.HARD);
+                    System.out.println(ANSI_WHITE + q.getTheme() + ANSI_RESET + " -> " + q);
+                    String r = getUserInput();
+                    System.out.println("\nRéponse du joueur: " + r);
+                    if (q.checkResponse(r)) {
+                        joueur.incrementScore(5);
                         System.out.println(ANSI_GREEN + "BONNE REPONSE");
-                    }else{
+                    } else {
                         System.out.println(ANSI_RED + "MAUVAISE REPONSE");
                     }
                 }
             }
         }
-        this.game.getJoueurs()[this.game.eliminateParticipant()].setEtat(Status.ELIMINER);
-        this.game.getJoueurs()[this.game.winner()].setEtat(Status.GAGNANT);
+        joueurs.get(this.game.eliminateParticipant()).setEtat(Status.ELIMINER);
+        joueurs.get(this.game.winner()).setEtat(Status.GAGNANT);
         System.out.println("\n" + ANSI_RESET + this.game);
     }
 
-    public String randomAnswer(Question q){
-        Random rand = new Random();
-        if(q instanceof QuestionVraiFaux) {
-            return rand.nextBoolean() ? "vrai" : "faux";
-        }
-        else if(q instanceof QuestionQCM) {
-            return (rand.nextInt(3)+1)+"";
-        }
-        else if(q instanceof QuestionLibre) {
-            /*
-            java.util.Scanner entree =   new java.util.Scanner(System.in);
-            System.out.println("Réponse");
-            String result = entree.nextLine();
-            return result;
-             */
-            return "false";
-        }
-        else{
-            return "Erreur génération réponse";
-        }
+    public String getUserInput(){
+        Scanner in = new Scanner(System.in);
+        System.out.print("> ");
+        return in.nextLine();
     }
 }
