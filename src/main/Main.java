@@ -9,10 +9,6 @@ public class Main {
 			Phases p = new Phases();
 			//déroulement de la phase 1
 			p.phase1();
-			//déroulement de la phase 2
-			p.phase2();
-			//déroulement de la phase 3
-			p.phase3();
 		} catch (ClassNotFoundException e) {
 			//en cas d'erreur lors de la création des questions on stop l'execution
 			e.printStackTrace();
