@@ -1,3 +1,20 @@
+/* ------------------------------------------------------------------------------
+
+      ##    ###    ##     ##    ###    
+      ##   ## ##   ##     ##   ## ##   
+      ##  ##   ##  ##     ##  ##   ##  
+      ## ##     ## ##     ## ##     ## 
+##    ## #########  ##   ##  ######### 
+##    ## ##     ##   ## ##   ##     ## 
+ ######  ##     ##    ###    ##     ## 
+
+Projet : Question pour un bouffon
+Auteurs : PIGEON Arthur, BILLAUD Victor, BENOUDA Karim, JOVANOVIC Ivan
+Role : Ce fichier contient la classe Joueur définissant les attributs d'un joueur
+avec son nom, son numéro, son score et son état. Elle fait partie du package "JEU"
+
+------------------------------------------------------------------------------ */
+
 package jeu;
 
 public class Joueur {
@@ -5,6 +22,8 @@ public class Joueur {
 	private String nom;
 	private int score;
 	private Status etat;
+
+	// GETTER ET SETTER 
 
 	public int getNumero () {
 		return numero;
@@ -38,6 +57,8 @@ public class Joueur {
 		this.etat = etat;
 	}
 
+	// CONSTRUCTEUR
+
 	public Joueur (int numero, String nom, int score, Status etat){
 		this.numero = numero;
 		this.nom = nom;
@@ -49,6 +70,7 @@ public class Joueur {
 		this(numero, nom, 0, Status.ATTENTE);
 	}
 
+	// Saisie est une méthode permettant de saisir des nouvelles informations concernant le joueur
 
 	public void Saisie(int numero, String nom, int score, Status etat){
 		setNumero(numero);
@@ -56,6 +78,8 @@ public class Joueur {
 		setScore(score);
 		setEtat(etat);
 	}
+
+	// incrementScore est une méthode permettant d'incrémenter le score d'une valeur passée en paramètre
 
 	public void incrementScore(int scoreToAdd){
 		setScore(this.score + scoreToAdd);
