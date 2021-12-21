@@ -91,6 +91,7 @@ public class Phases {
         }
         joueurs.get(game.eliminateParticipant()).setEtat(Status.ELIMINER);
         System.out.println("\n" + ANSI_RESET + game);
+        phase2();
     }
 
     public void phase2() {
@@ -119,6 +120,7 @@ public class Phases {
         }
         joueurs.get(game.eliminateParticipant()).setEtat(Status.ELIMINER);
         System.out.println("\n" + ANSI_RESET + game);
+        phase3();
     }
 
     public void phase3() {
