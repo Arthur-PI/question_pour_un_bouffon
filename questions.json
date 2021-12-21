@@ -27,21 +27,21 @@
     "type": "VRAI_FAUX",
     "niveau": 1,
     "theme" : "Sport",
-    "question": "La Serbie a gagné le match de qualfication à la coupe du monde contre le portugal en 2021, Vrai ou Faux ?",
+    "question": "La Serbie a gagné le match de qualification au championnat du monde de football contre le Portugal en 2021, Vrai ou Faux ?",
     "reponse" : true
   },
   {
     "type": "VRAI_FAUX",
     "niveau": 2,
     "theme" : "Sport",
-    "question": "L'Espagne a gagné les championats du monde du HandBall ?",
+    "question": "L'Espagne a gagné la coupe du monde de Handball ?",
     "reponse" : false
   },
   {
     "type": "VRAI_FAUX",
     "niveau": 3,
     "theme" : "Sport",
-    "question": "Le marathon de paris a eu lieu en 2020 ?",
+    "question": "Le marathon de Paris a eu lieu en 2020 ?",
     "reponse" : false
   },
   {
@@ -55,21 +55,21 @@
     "type": "LIBRE",
     "niveau": 2,
     "theme" : "Sport",
-    "question": "Combien de discipline ont été exercée au Jeux Olympique de 2021 ?",
+    "question": "Combien de disciplines ont été exercées aux Jeux Olympiques de 2021 ?",
     "reponse" : "33"
   },
   {
     "type": "LIBRE",
     "niveau": 3,
     "theme" : "Sport",
-    "question": "Quel joueur de tennis ayant le plus de victoire (Grand Chelem et majeurs ) ?",
+    "question": "Quel est le joueur de tennis ayant le plus de victoire (Grand Chelem et majeurs ) ?",
     "reponse" : "Roger Federer"
   },
   {
     "type": "QCM",
     "niveau": 1,
     "theme" : "Géographie",
-    "question": "Quel est l'Etat le plus vaste du monde ?",
+    "question": "Quel est le pays avec la plus grande superficie ?",
     "choix" : ["Les Etats-Unis", "La Russie", "La France"],
     "reponse" : 2
   },
@@ -86,21 +86,21 @@
     "niveau": 3,
     "theme" : "Géographie",
     "question": "Quel est le pays ayant le plus de Volcan ?",
-    "choix" : ["France", "Italie", "Indonésie"],
+    "choix" : ["Haïti", "Malaisie", "Indonésie"],
     "reponse" : 3
   },
   {
     "type": "VRAI_FAUX",
     "niveau": 1,
     "theme" : "Géographie",
-    "question": "Les Etats-Unis contiennent 53 etats, Vrai ou Faux ?",
+    "question": "Les Etats-Unis contiennent 53 états, Vrai ou Faux ?",
     "reponse" : false
   },
   {
     "type": "VRAI_FAUX",
     "niveau": 2,
     "theme" : "Géographie",
-    "question": "Il y a 27 pays dans l'Union Européene, Vrai ou Faux ?",
+    "question": "Il y a 27 pays dans l'Union européenne, Vrai ou Faux ?",
     "reponse" : true
   },
   {
@@ -114,15 +114,15 @@
     "type": "LIBRE",
     "niveau": 1,
     "theme" : "Géographie",
-    "question": "Quel est la plus grande fôret du monde ?",
+    "question": "Quelle est la plus grande forêt du monde ?",
     "reponse" : "Amazonie"
   },
   {
     "type": "LIBRE",
     "niveau": 2,
     "theme" : "Géographie",
-    "question": "Quelle est le nom de la ville/village construit batit le plus haut du monde ?",
-    "reponse" : "La Riconoda"
+    "question": "Quel est le nom de la ville la plus haute du monde ?",
+    "reponse" : "La Rinconoda"
   },
   {
     "type": "LIBRE",
@@ -135,7 +135,7 @@
     "type": "QCM",
     "niveau": 1,
     "theme" : "Histoire",
-    "question": "Quels étaient les pays membres de l'Axe pendant la seconde guerre mondiale ?",
+    "question": "Quels étaient les pays membres de l'Axe pendant la Seconde Guerre mondiale ?",
     "choix" : ["Allemagne, Japon et Italie", "France, Angleterre et Russie", "Le Pérou, La Chine et le Groenland"],
     "reponse" : 1
   },
@@ -151,15 +151,15 @@
     "type": "QCM",
     "niveau": 3,
     "theme" : "Histoire",
-    "question": "Dans quelle pays à été conçue la vodka ? ?",
-    "choix" : ["Russie", "Ukraine", "Japon"],
+    "question": "Dans quel pays a été conçue la vodka ?",
+    "choix" : ["Russie", "Ukraine", "Pologne"],
     "reponse" : 1
   },
   {
     "type": "VRAI_FAUX",
     "niveau": 1,
     "theme" : "Histoire",
-    "question": "L'union Européene a été fondé en 1993, Vrai ou Faux ?",
+    "question": "L'Union européene a été fondé en 1993, Vrai ou Faux ?",
     "reponse" : true
   },
   {
@@ -180,7 +180,7 @@
     "type": "LIBRE",
     "niveau": 1,
     "theme" : "Histoire",
-    "question": "Quand la machine à vapeur a-t-elle été crée ?",
+    "question": "Quand la machine à vapeur a-t-elle été créée ?",
     "reponse" : "1712"
   },
   {
@@ -194,14 +194,14 @@
     "type": "LIBRE",
     "niveau": 3,
     "theme" : "Histoire",
-    "question": "Quelle est le premier jeu-vidéo apparu dans le monde ??",
+    "question": "Quel est le premier jeu-vidéo apparu dans le monde ?",
     "reponse" : "Pong"
   },
   {
     "type": "QCM",
     "niveau": 1,
     "theme" : "Cinématographie",
-    "question": "Combien de film Star Wars sont sortis ?",
+    "question": "Combien de films Star Wars sont sortis ?",
     "choix" : ["5", "8", "12"],
     "reponse" : 3
   },
@@ -239,7 +239,7 @@
     "type": "VRAI_FAUX",
     "niveau": 3,
     "theme" : "Cinématographie",
-    "question": "Le réalisateur du film Kill Bill est Quentin Tarantino ?",
+    "question": "Le réalisateur du film Kill Bill est Quentin Tarantino",
     "reponse" : true
   },
   {
@@ -267,7 +267,7 @@
     "type": "QCM",
     "niveau": 1,
     "theme" : "Science et Nature",
-    "question": "Combien y-a-t'il de planète dans notre système solaire ?",
+    "question": "Combien y a t-il de planète dans notre système solaire ?",
     "choix" : ["8", "9", "10"],
     "reponse" : 1
   },
