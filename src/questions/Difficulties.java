@@ -1,3 +1,20 @@
+/* ------------------------------------------------------------------------------
+
+      ##    ###    ##     ##    ###    
+      ##   ## ##   ##     ##   ## ##   
+      ##  ##   ##  ##     ##  ##   ##  
+      ## ##     ## ##     ## ##     ## 
+##    ## #########  ##   ##  ######### 
+##    ## ##     ##   ## ##   ##     ## 
+ ######  ##     ##    ###    ##     ## 
+
+Projet : Question pour un bouffon
+Auteurs : PIGEON Arthur, BILLAUD Victor, BENOUDA Karim, JOVANOVIC Ivan
+Role : Ce fichier contient les différentes difficultés des questions
+Il fait partie du package "Questions"
+
+------------------------------------------------------------------------------ */
+
 package questions;
 
 public enum Difficulties {
