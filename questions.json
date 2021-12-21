@@ -27,7 +27,7 @@
     "type": "VRAI_FAUX",
     "niveau": 1,
     "theme" : "Sport",
-    "question": "La Serbie a gagné le match de qualification au championnat du monde de football contre le Portugal en 2021, Vrai ou Faux ?",
+    "question": "La Serbie a gagné le match de qualification au championnat du monde de football contre le Portugal en 2021 ?",
     "reponse" : true
   },
   {
@@ -93,21 +93,21 @@
     "type": "VRAI_FAUX",
     "niveau": 1,
     "theme" : "Géographie",
-    "question": "Les Etats-Unis contiennent 53 états, Vrai ou Faux ?",
+    "question": "Les Etats-Unis contiennent 53 états ?",
     "reponse" : false
   },
   {
     "type": "VRAI_FAUX",
     "niveau": 2,
     "theme" : "Géographie",
-    "question": "Il y a 27 pays dans l'Union européenne, Vrai ou Faux ?",
+    "question": "Il y a 27 pays dans l'Union européene ?",
     "reponse" : true
   },
   {
     "type": "VRAI_FAUX",
     "niveau": 3,
     "theme" : "Géographie",
-    "question": "Il y a 49 pays en Asie, Vrai ou Faux ?",
+    "question": "Il y a 49 pays en Asie ?",
     "reponse" : true
   },
   {
@@ -159,21 +159,21 @@
     "type": "VRAI_FAUX",
     "niveau": 1,
     "theme" : "Histoire",
-    "question": "L'Union européene a été fondé en 1993, Vrai ou Faux ?",
+    "question": "L'Union Européene a été fondé en 1993 ?",
     "reponse" : true
   },
   {
     "type": "VRAI_FAUX",
     "niveau": 2,
     "theme" : "Histoire",
-    "question": "La bataille de Verdun a débuté en 1916, Vrai ou Faux ?",
+    "question": "La bataille de Verdun a débuté en 1916 ?",
     "reponse" : true
   },
   {
     "type": "VRAI_FAUX",
     "niveau": 3,
     "theme" : "Histoire",
-    "question": "Le katana est un sabre japonais, Vrai ou Faux ?",
+    "question": "Le katana est un sabre japonais ?",
     "reponse" : true
   },
   {
@@ -225,14 +225,14 @@
     "type": "VRAI_FAUX",
     "niveau": 1,
     "theme" : "Cinématographie",
-    "question": "L'acteur Léonaro Di Caprio a déjà joué dans la série The Walking Dead, Vrai ou Faux ?",
+    "question": "L'acteur Léonaro Di Caprio a déjà joué dans la série The Walking Dead ?",
     "reponse" : false
   },
   {
     "type": "VRAI_FAUX",
     "niveau": 2,
     "theme" : "Cinématographie",
-    "question": "Le premier film au monde a été projeté à Lyon, Vrai ou Faux ?",
+    "question": "Le premier film au monde a été projeté à Lyon ?",
     "reponse" : true
   },
   {
@@ -291,14 +291,14 @@
     "type": "VRAI_FAUX",
     "niveau": 1,
     "theme" : "Science et Nature",
-    "question": "Pluton est une planète naine, Vrai ou Faux ?",
+    "question": "Pluton est une planète naine ?",
     "reponse" : true
   },
   {
     "type": "VRAI_FAUX",
     "niveau": 2,
     "theme" : "Science et Nature",
-    "question": "L'ailliage or-platine est le métal le plus solide ?",
+    "question": "L'alliage or-platine est le métal le plus solide ?",
     "reponse" : true
   },
   {
@@ -357,21 +357,21 @@
     "type": "VRAI_FAUX",
     "niveau": 1,
     "theme" : "Musique",
-    "question": "Le rapeur Niska a dit dans un de ses sons : \"tu sers à rien comme un brocoli\", Vrai ou Faux ?",
+    "question": "Le rapeur Niska a dit dans un de ses sons : \"tu sers à rien comme un brocoli\" ?",
     "reponse" : true
   },
   {
     "type": "VRAI_FAUX",
     "niveau": 2,
     "theme" : "Musique",
-    "question": "Le chanteur Colonel Reyel a réalisé un concert avec une entrée à 2 euros, vrai ou Faux ?",
+    "question": "Le chanteur Colonel Reyel a réalisé un concert avec une entrée à 2 euros ?",
     "reponse" : true
   },
   {
     "type": "VRAI_FAUX",
     "niveau": 3,
     "theme" : "Musique",
-    "question": "Les Beattles sont les artistes ayant vendu le plus d'album au monde, Vrai ou Faux ?",
+    "question": "Les Beattles sont les artistes ayant vendu le plus d'album au monde ?",
     "reponse" : true
   },
   {
@@ -423,14 +423,14 @@
     "type": "VRAI_FAUX",
     "niveau": 1,
     "theme" : "Animé",
-    "question": "Eiichiro Oda est l'auteur de Prison School, vrai ou faux ?",
+    "question": "Eiichiro Oda est l'auteur de Prison School ?",
     "reponse" : false
   },
   {
     "type": "VRAI_FAUX",
     "niveau": 2,
     "theme" : "Animé",
-    "question": "Les personnages principaux de Dragon Ball viennent de l'univers 7, vrai ou faux ?",
+    "question": "Les personnages principaux de Dragon Ball viennent de l'univers 7 ?",
     "reponse" : true
   },
   {
@@ -465,7 +465,7 @@
     "type": "QCM",
     "niveau": 1,
     "theme" : "Informatique",
-    "question": "Le language de programmation le plus ancienne existant ?",
+    "question": "Le langage de programmation le plus ancienne existant ?",
     "choix" : ["C", "Fortran", "Kotlin"],
     "reponse" : 2
   },
@@ -489,21 +489,21 @@
     "type": "VRAI_FAUX",
     "niveau": 1,
     "theme" : "Informatique",
-    "question": "Le modèle OSI concerne la gestion de la mémoire vive dans un ordianteur, vrai ou faux ?",
+    "question": "Le modèle OSI concerne la gestion de la mémoire vive dans un ordinateur ?",
     "reponse" : false
   },
   {
     "type": "VRAI_FAUX",
     "niveau": 2,
     "theme" : "Informatique",
-    "question": "Les catégories les plus récente de mémoires vives sont les DDR5, vrai ou faux ?",
+    "question": "Les catégories les plus récente de mémoires vives sont les DDR5 ?",
     "reponse" : true
   },
   {
     "type": "VRAI_FAUX",
     "niveau": 3,
     "theme" : "Informatique",
-    "question": "Une adresse IP est une adresse physique, vrai ou faux ?",
+    "question": "Une adresse IP est une adresse physique ?",
     "reponse" : false
   },
   {
@@ -517,7 +517,7 @@
     "type": "LIBRE",
     "niveau": 2,
     "theme" : "Informatique",
-    "question": "Quelle language de programmation a été utilisé pour développer Minecraft ?",
+    "question": "Quel langage de programmation a été utilisé pour développer Minecraft ?",
     "reponse" : "Java"
   },
   {
@@ -531,7 +531,7 @@
     "type": "QCM",
     "niveau": 1,
     "theme" : "Divertissement",
-    "question": "Quel est la plateforme la plus utilisée pour écouter de la musique ?",
+    "question": "Quelle est la plateforme la plus utilisée pour écouter de la musique ?",
     "choix" : ["Spotify", "Deezer", "Youtube"],
     "reponse" : 3
   },
@@ -547,7 +547,7 @@
     "type": "QCM",
     "niveau": 3,
     "theme" : "Divertissement",
-    "question": "Quelle équipe Esport à gagner le tournoi CSGO Blast Premier Fall Final 2021 ?",
+    "question": "Quelle équipe Esport a gagné le tournoi CSGO Blast Premier Fall Final 2021 ?",
     "choix" : ["Vitality", "Navi", "WarnadoEsport"],
     "reponse" : 2
   },
@@ -555,14 +555,14 @@
     "type": "VRAI_FAUX",
     "niveau": 1,
     "theme" : "Divertissement",
-    "question": "Les elytras sont l'une des meilleurs invention du jeu Minecraft, vrai ou faux ?",
+    "question": "Les elytras sont l'une des meilleurs inventions du jeu Minecraft ?",
     "reponse" : true
   },
   {
     "type": "VRAI_FAUX",
     "niveau": 2,
     "theme" : "Divertissement",
-    "question": "Le Zevent 2021 à rapporté environ 10 millions d'euros, vrai ou faux ?",
+    "question": "Le Zevent 2021 à rapporté environ 10 millions d'euros ?",
     "reponse" : true
   },
   {
@@ -597,7 +597,7 @@
     "type": "QCM",
     "niveau": 1,
     "theme" : "Mathématiques",
-    "question": "Quand on été créer les Mathématiques ?",
+    "question": "Quand on été crée les Mathématiques ?",
     "choix" : ["VIème siècle avant JC", "500 ans avant JC", "IIème siècle avant JC"],
     "reponse" : 1
   },
@@ -621,29 +621,29 @@
     "type": "VRAI_FAUX",
     "niveau": 1,
     "theme" : "Mathématiques",
-    "question": "1 + 1 = 2, vrai ou faux ?",
+    "question": "1 + 1 = 2 ?",
     "reponse" : true
   },
   {
     "type": "VRAI_FAUX",
     "niveau": 2,
     "theme" : "Mathématiques",
-    "question": "On étudie les mathématiques dès l'école primaire, vrai ou faux ?",
+    "question": "On étudie les mathématiques dès l'école primaire ?",
     "reponse" : true
   },
   {
     "type": "VRAI_FAUX",
     "niveau": 3,
     "theme" : "Mathématiques",
-    "question": "Archimède était un mathématicien, vrai ou faux ?",
+    "question": "Archimède était un mathématicien ?",
     "reponse" : true
   },
   {
     "type": "LIBRE",
     "niveau": 1,
     "theme" : "Mathématiques",
-    "question": "Quelle est la probabilitée d'obtenir deux fois de suite la même face lors d'un lancé de dé ?",
-    "reponse" : "0.375 ou 6/16"
+    "question": "Quelle est la probabilité d'obtenir deux fois de suite un 6 lors d'un lancé de dé ?",
+    "reponse" : "1/36"
   },
   {
     "type": "LIBRE",
@@ -656,7 +656,7 @@
     "type": "LIBRE",
     "niveau": 3,
     "theme" : "Mathématiques",
-    "question": "Quel est la racine carré de 121 ?",
+    "question": "Quelle est la racine carré de 121 ?",
     "reponse" : "11"
   }
 ]

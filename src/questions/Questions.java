@@ -59,7 +59,6 @@ public class Questions {
 	public Question getQuestion(String theme, Difficulties level) {
 		Random rand = new Random();
 		Question q;
-		int n;
 		do {
 			q = questions.get(rand.nextInt(questions.size()));
 		} while (q.getDifficulty() != level || !q.getTheme().equals(theme));
