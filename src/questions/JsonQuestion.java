@@ -1,13 +1,5 @@
 /* ------------------------------------------------------------------------------
 
-      ##    ###    ##     ##    ###    
-      ##   ## ##   ##     ##   ## ##   
-      ##  ##   ##  ##     ##  ##   ##  
-      ## ##     ## ##     ## ##     ## 
-##    ## #########  ##   ##  ######### 
-##    ## ##     ##   ## ##   ##     ## 
- ######  ##     ##    ###    ##     ## 
-
 Projet : Question pour un bouffon
 Auteurs : PIGEON Arthur, BILLAUD Victor, BENOUDA Karim, JOVANOVIC Ivan
 Role : Cette classe contient la classe JsonQuestion permettant de faire la 
@@ -19,6 +11,10 @@ Il fait partie du package "Questions"
 
 package questions;
 
+/**
+ * Classe template dont les attribut correspondent
+ * aux clés de l'objet JSON d'un question
+ */
 public class JsonQuestion {
 	private TypeQuestion type;
 	private int niveau;
@@ -28,7 +24,6 @@ public class JsonQuestion {
 	private String reponse;
 
 	// GETTER et SETTER de la classe
-
 	public TypeQuestion getType () {
 		return type;
 	}

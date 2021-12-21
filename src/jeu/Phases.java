@@ -1,13 +1,5 @@
 /* ------------------------------------------------------------------------------
 
-      ##    ###    ##     ##    ###    
-      ##   ## ##   ##     ##   ## ##   
-      ##  ##   ##  ##     ##  ##   ##  
-      ## ##     ## ##     ## ##     ## 
-##    ## #########  ##   ##  ######### 
-##    ## ##     ##   ## ##   ##     ## 
- ######  ##     ##    ###    ##     ## 
-
 Projet : Question pour un bouffon
 Auteurs : PIGEON Arthur, BILLAUD Victor, BENOUDA Karim, JOVANOVIC Ivan
 Role : Ce fichier contient la classe Phases contenant toutes les phases du jeu.
@@ -39,7 +31,6 @@ public class Phases {
     private final Themes themes;
 
     // création de la partie dans le constructeur
-
     public Phases() {
         // création du tableau de joueurs
         this.game = new Joueurs();
@@ -62,6 +53,10 @@ public class Phases {
         }
     }
 
+    /**
+     * Phase 1 du jeu, génere ici les 4 participants puis déroule la premiere phase
+     * Passe ensuite le relaie à la phase 2
+     */
     public void phase1() {
         game.generateParticipants();
         System.out.println("\n _____________________________ \n Début de la phase 1 ... \n _____________________________ \n");
@@ -94,6 +89,11 @@ public class Phases {
         phase2();
     }
 
+
+    /**
+     * Phase 2, fais le déroulement de la deuxième phase du jeu
+     * après l'élimination du premier joueur. Lance a la fin la phase 3
+     */
     public void phase2() {
         System.out.println("\n _____________________________ \n\n Début de la phase 2 ... \n _____________________________ \n");
         game.resetScores();
@@ -123,6 +123,10 @@ public class Phases {
         phase3();
     }
 
+    /**
+     * Phase 3, execute la troisième et dernière phase du jeu
+     * Selectionne le gagnant à la fin
+     */
     public void phase3() {
         System.out.println("\n _____________________________ \n Début de la phase 3 ... \n _____________________________ \n");
         game.resetScores();
@@ -152,6 +156,11 @@ public class Phases {
         System.out.println("\n" + ANSI_RESET + this.game);
     }
 
+    /**
+     * Permet de récuperer l'entrée clavier de l'utilisateur
+     * sous un certain format
+     * @return ce que l'utilisateur a tapé
+     */
     public String getUserInput(){
         Scanner in = new Scanner(System.in);
         System.out.print("> ");

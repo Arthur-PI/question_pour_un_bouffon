@@ -1,10 +1,20 @@
+/* ------------------------------------------------------------------------------
+
+Projet : Question pour un bouffon
+Auteurs : PIGEON Arthur, BILLAUD Victor, BENOUDA Karim, JOVANOVIC Ivan
+Role : Cette classe contient la classe Theme correspond à un theme donné
+Elle fait partie du package "questions"
+
+------------------------------------------------------------------------------ */
 package questions;
 
-import java.util.ArrayList;
-
+/**
+ * Contient toutes les information sur un thème
+ */
 public class Theme {
     private String nom;
 
+    // GETTER et SETTER
     public String getNom() {
         return nom;
     }
@@ -23,7 +33,7 @@ public class Theme {
 
     private boolean indicateur;
 
-    Theme(String nom, boolean indicateur){
+    public Theme(String nom, boolean indicateur){
         this.nom = nom;
         this.indicateur = indicateur;
     }

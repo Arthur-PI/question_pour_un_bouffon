@@ -1,9 +1,17 @@
+/* ------------------------------------------------------------------------------
+
+Projet : Question pour un bouffon
+Auteurs : PIGEON Arthur, BILLAUD Victor, BENOUDA Karim, JOVANOVIC Ivan
+Role : Cette classe contient la classe Themes contient tous les themes qui existent
+Elle fait partie du package "questions"
+
+------------------------------------------------------------------------------ */
 package questions;
 
 import java.util.ArrayList;
 
 public class Themes {
-    private ArrayList<Theme> themes;
+    private final ArrayList<Theme> themes;
     private int nbThemes;
 
     public Themes() {
@@ -23,7 +31,7 @@ public class Themes {
 
     public int indexOf(String theme){
         for (int i = 0; i < this.themes.size(); i++) {
-            if(this.themes.get(i).getNom() == theme){
+            if(this.themes.get(i).getNom().equals(theme)){
                 return i;
             };
         }
@@ -40,26 +48,26 @@ public class Themes {
     }
 
     public Theme selectRandomThemes() {
-        Theme selectTheme =  this.themes.get(getRandomDoubleBetweenRange(0,9));
+        Theme selectedTheme;
         do {
-            selectTheme =  this.themes.get(getRandomDoubleBetweenRange(0,9));
+            selectedTheme =  this.themes.get(getRandomDoubleBetweenRange(0,9));
             if (nbThemes == 10) {
                 nbThemes = 0;
-                for (int i = 0; i < this.themes.size(); i++) {
-                    this.themes.get(i).setIndicateur(false);
+                for (Theme theme : this.themes) {
+                    theme.setIndicateur(false);
                 }
             }
-        } while (selectTheme.isIndicateur());
-        selectTheme.setIndicateur(true);
+        } while (selectedTheme.isIndicateur());
+        selectedTheme.setIndicateur(true);
         nbThemes++;
-        return selectTheme;
+        return selectedTheme;
     }
 
     @Override
     public String toString(){
         StringBuilder chaine = new StringBuilder();
-        for (int i = 0; i < this.themes.size(); i++) {
-                chaine.append(this.themes.get(i).toString());
+        for (Theme theme : this.themes) {
+            chaine.append(theme.toString());
         }
         return chaine.toString();
     }
