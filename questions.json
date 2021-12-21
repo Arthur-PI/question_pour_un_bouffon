@@ -267,7 +267,7 @@
     "type": "QCM",
     "niveau": 1,
     "theme" : "Science et Nature",
-    "question": "Combien y a t-il de planète dans notre système solaire ?",
+    "question": "Combien y a t-il de planètes dans notre système solaire ?",
     "choix" : ["8", "9", "10"],
     "reponse" : 1
   },
@@ -275,7 +275,7 @@
     "type": "QCM",
     "niveau": 2,
     "theme" : "Science et Nature",
-    "question": "Quelle est l'insecte dont la femelle mange le male lors d'un accouchement ?",
+    "question": "Quel est l'insecte dont la femelle mange le mâle lors d'un accouchement ?",
     "choix" : ["La mante religieuse", "La fourmis", "Le scarabé"],
     "reponse" : 1
   },
@@ -283,7 +283,7 @@
     "type": "QCM",
     "niveau": 3,
     "theme" : "Science et Nature",
-    "question": "Quelle est le nom du plus grand fleuve au monde ?",
+    "question": "Quel est le nom du plus grand fleuve au monde ?",
     "choix" : ["L'Amazone", "Le Rhin", "La Seine"],
     "reponse" : 1
   },
@@ -298,7 +298,7 @@
     "type": "VRAI_FAUX",
     "niveau": 2,
     "theme" : "Science et Nature",
-    "question": "L'alliage or-platine est le métal le plus solide ?",
+    "question": "L'alliage or-platine est le métal le plus résistant au monde ?",
     "reponse" : true
   },
   {
@@ -312,21 +312,21 @@
     "type": "LIBRE",
     "niveau": 1,
     "theme" : "Science et Nature",
-    "question": "Le nom de notre galaxie ?",
+    "question": "Quel est le nom de notre galaxie ?",
     "reponse" : "La voie lactée"
   },
   {
     "type": "LIBRE",
     "niveau": 2,
     "theme" : "Science et Nature",
-    "question": "Le nombre de dents minimum que possèdent les requins ?",
+    "question": "Quel est le nombre de dents minimum que possèdent les requins ?",
     "reponse" : "190"
   },
   {
     "type": "LIBRE",
     "niveau": 3,
     "theme" : "Science et Nature",
-    "question": "Le nom de l'oiseau qu'il y a le plus à Paris ?",
+    "question": "Quel est le nom de l'oiseau le plus commun à Paris ?",
     "reponse" : "Pigeon"
   },
   {
@@ -341,7 +341,7 @@
     "type": "QCM",
     "niveau": 2,
     "theme" : "Musique",
-    "question": "Combien d'album ont sorti les rapeurs PNL ?",
+    "question": "Combien d'albums ont sorti les rappeurs PNL ?",
     "choix" : ["1", "4", "6"],
     "reponse" : 2
   },
@@ -357,7 +357,7 @@
     "type": "VRAI_FAUX",
     "niveau": 1,
     "theme" : "Musique",
-    "question": "Le rapeur Niska a dit dans un de ses sons : \"tu sers à rien comme un brocoli\" ?",
+    "question": "Le rappeur Niska a dit dans un de ses morceaux : \"tu sers à rien comme un brocoli\" ?",
     "reponse" : true
   },
   {
@@ -378,14 +378,14 @@
     "type": "LIBRE",
     "niveau": 1,
     "theme" : "Musique",
-    "question": "Le nom du rapeur qui a dit \"Frère si je sors la AK je sais qu'ils feront tous caca\" ?",
+    "question": "Le nom du rappeur qui a dit \"Frère si je sors la AK je sais qu'ils feront tous caca\" ?",
     "reponse" : "Lacrim"
   },
   {
     "type": "LIBRE",
     "niveau": 2,
     "theme" : "Musique",
-    "question": "Le nom du rapeur qui a fait une collaboration avec le rapeur Niska sur le son \"Blue Magic\" ?",
+    "question": "Le nom du rappeur qui a fait une collaboration avec le rappeur Niska sur le son \"Blue Magic\" ?",
     "reponse" : "Maes"
   },
   {
@@ -445,27 +445,27 @@
     "niveau": 1,
     "theme" : "Animé",
     "question": "Le nom du titan de Eren Jäger dans L'attaque des titans ?",
-    "reponse" : "Le Titan Primordial"
+    "reponse" : "Le Titan assaillant"
   },
   {
     "type": "LIBRE",
     "niveau": 2,
     "theme" : "Animé",
-    "question": "Le nom du rapeur qui a fait une collaboration avec le rapeur Niska sur le son \"Blue Magic\" ?",
-    "reponse" : "Black Clover"
+    "question": "Quel est le manga le plus connu écrit par Masashi Kishimoto",
+    "reponse" : "Naruto"
   },
   {
     "type": "LIBRE",
     "niveau": 3,
     "theme" : "Animé",
-    "question": "Le nom de l'oeuvre sortie en animé récement dont l'auteur est celui de Death Note ?",
-    "reponse" : "Platinium End"
+    "question": "Le nom de l'oeuvre sortie en animé récemment dont l'auteur est celui de Death Note ?",
+    "reponse" : "Platinum End"
   },
   {
     "type": "QCM",
     "niveau": 1,
     "theme" : "Informatique",
-    "question": "Le langage de programmation le plus ancienne existant ?",
+    "question": "Le langage de programmation le plus ancien existant ?",
     "choix" : ["C", "Fortran", "Kotlin"],
     "reponse" : 2
   },
@@ -473,7 +473,7 @@
     "type": "QCM",
     "niveau": 2,
     "theme" : "Informatique",
-    "question": "La gamme de carte graphique chez Nvidia les plus récentes ?",
+    "question": "La gamme de carte graphique chez Nvidia la plus récente ?",
     "choix" : ["GTX", "RTX", "STX"],
     "reponse" : 2
   },
@@ -555,7 +555,7 @@
     "type": "VRAI_FAUX",
     "niveau": 1,
     "theme" : "Divertissement",
-    "question": "Les elytras sont l'une des meilleurs inventions du jeu Minecraft ?",
+    "question": "Les elytras sont l'une des meilleures inventions du jeu Minecraft ?",
     "reponse" : true
   },
   {
@@ -583,7 +583,7 @@
     "type": "LIBRE",
     "niveau": 2,
     "theme" : "Divertissement",
-    "question": "Comment s'appelle les personnes qui répondent \"réel mais reste digne\" dans les commantaires Twitter ?",
+    "question": "Comment s'appelle les personnes qui répondent \"réel mais reste digne\" dans les commentaires Twitter ?",
     "reponse" : "Pessi"
   },
   {
@@ -597,7 +597,7 @@
     "type": "QCM",
     "niveau": 1,
     "theme" : "Mathématiques",
-    "question": "Quand on été crée les Mathématiques ?",
+    "question": "Quand est-ce qu'ont été créés les mathématiques",
     "choix" : ["VIème siècle avant JC", "500 ans avant JC", "IIème siècle avant JC"],
     "reponse" : 1
   },
@@ -614,7 +614,7 @@
     "niveau": 3,
     "theme" : "Mathématiques",
     "question": "Pourquoi le philosophe Pythagore est-il connu ?",
-    "choix" : ["Il a créer un algorythme", "Il a créer un théorême", "C'est un mec sympa sah"],
+    "choix" : ["Il a créé un algorithme", "Il a créer un théorème", "C'est un mec sympa"],
     "reponse" : 1
   },
   {
